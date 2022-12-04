@@ -1,6 +1,5 @@
 import pandas as pd
 from apyori import apriori
-import numpy as np
 import matplotlib.pyplot as plt
 import functools as ft
 
@@ -58,43 +57,38 @@ df.loc[df['causa_acidente'] == 'Sinalização encoberta', 'causa_acidente'] = 'P
 df.loc[df['causa_acidente'] == 'Ausência de sinalização', 'causa_acidente'] = 'Problema de sinalização'
 
 df = df[['dia_semana','causa_acidente', 'br', 'tipo_acidente', 'condicao_metereologica', 'fase_dia', 'classificacao_acidente', 'tracado_via', 'tipo_pista']]
-# print(df['fase_dia'])
 df['br'] = df['br'].astype(str)
-# df['fase_dia'] = df[df['fase_dia'] != 'ceu claro']
-# print(df.head())
 
-# @ft.lru_cache(maxsize=128)
-# print(df.head(10))
 def generateRecords(df):
     records = []
     for i in range(0, len(df)):
-        # ignore all records that relate 'br' field with 'trcado_via' field
         records.append([str(df.values[i, j]) for j in range(0, len(df.columns))])
-        # for j in range(0, len(df.columns)):
-        #     # if i == df.columns.get_loc('tracado_via') and j == df.columns.get_loc('br'):
-        #     #     continue
-        #     # elif j == df.columns.get_loc('tracado_via') and i == df.columns.get_loc('br'):
-        #     #     continue
-
-        #     records.append([str(df.values[i, j])])
     return records
 records = generateRecords(df)
+
 br = list(df['br'].unique())
-tipo_via = list(df['tracado_via'].unique())
-# print(records)
+tipo_pista = list(df['tipo_pista'].unique())
+tracado_via = list(df['tracado_via'].unique())
+
 association_rules = apriori(records, min_support=0.0001, min_confidence=0.49, min_lift=2, min_length=2, max_length=2)
 association_results = list(association_rules)
-# association_results = [x for x in association_results if not ('br' in x[0] and 'tracado_via' in x[0])]
-# print(br, '\n', tipo_via)
+
+# sort the results by confidence
+association_results = sorted(association_results, key=lambda x: x[2][0][2], reverse=True)
+
 print(len(association_results))
 for i in association_results:
+
     check = list(i.items)
-    if str(check[0]) in br and str(check[1]) in tipo_via:
-        continue
-    elif str(check[1]) in br and str(check[0]) in tipo_via:
-        continue
-    else:
-        print(i.items)
-        print(i.support)
-        print(i.ordered_statistics, sep='\n')
-        print('')
+
+    if (check[0] in br):
+        if (check[1] in tipo_pista) or (check[1] in tracado_via):
+            continue
+    if (check[1] in br):
+        if (check[0] in tipo_pista) or (check[0] in tracado_via):
+            continue
+
+    print(i.items)
+    print(i.support)
+    print(i.ordered_statistics, sep='\n')
+    print('')
