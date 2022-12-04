@@ -1,0 +1,121 @@
+30
+frozenset({'Colisão transversal', 'Acessar a via sem observar a presença dos outros veículos'})
+0.05052758797006461
+[OrderedStatistic(items_base=frozenset({'Acessar a via sem observar a presença dos outros veículos'}), items_add=frozenset({'Colisão transversal'}), confidence=0.6277189605389797, lift=5.052045640881059), OrderedStatistic(items_base=frozenset({'Colisão transversal'}), items_add=frozenset({'Acessar a via sem observar a presença dos outros veículos'}), confidence=0.4066591844369622, lift=5.052045640881059)]
+
+frozenset({'Animais na Pista', 'Atropelamento de Animal'})
+0.014456375214986288
+[OrderedStatistic(items_base=frozenset({'Animais na Pista'}), items_add=frozenset({'Atropelamento de Animal'}), confidence=0.7691673536685902, lift=50.757967114945956), OrderedStatistic(items_base=frozenset({'Atropelamento de Animal'}), items_add=frozenset({'Animais na Pista'}), confidence=0.9539877300613497, lift=50.75796711494596)]
+
+frozenset({'Com Vítimas Fatais', 'Atropelamento de Pedestre'})
+0.013712638869520755
+[OrderedStatistic(items_base=frozenset({'Atropelamento de Pedestre'}), items_add=frozenset({'Com Vítimas Fatais'}), confidence=0.3040192373754724, lift=4.2069248629879095)]
+
+frozenset({'Pedestre andava na pista', 'Atropelamento de Pedestre'})
+0.01045879235810905
+[OrderedStatistic(items_base=frozenset({'Atropelamento de Pedestre'}), items_add=frozenset({'Pedestre andava na pista'}), confidence=0.23187907935417384, lift=21.348422114748967), OrderedStatistic(items_base=frozenset({'Pedestre andava na pista'}), items_add=frozenset({'Atropelamento de Pedestre'}), confidence=0.9629101283880173, lift=21.348422114748967)]
+
+frozenset({'Colisão frontal', 'Com Vítimas Fatais'})
+0.01905824385255427
+[OrderedStatistic(items_base=frozenset({'Colisão frontal'}), items_add=frozenset({'Com Vítimas Fatais'}), confidence=0.28301886792452835, lift=3.916328198323571), OrderedStatistic(items_base=frozenset({'Com Vítimas Fatais'}), items_add=frozenset({'Colisão frontal'}), confidence=0.2637221269296741, lift=3.916328198323571)]
+
+frozenset({'Colisão frontal', 'Transitar na contramão'})
+0.01893428779497668
+[OrderedStatistic(items_base=frozenset({'Colisão frontal'}), items_add=frozenset({'Transitar na contramão'}), confidence=0.2811780947998159, lift=10.194917449598494), OrderedStatistic(items_base=frozenset({'Transitar na contramão'}), items_add=frozenset({'Colisão frontal'}), confidence=0.6865168539325842, lift=10.194917449598494)]
+
+frozenset({'Manobra de mudança de faixa', 'Colisão lateral mesmo sentido'})
+0.025163079688250514
+[OrderedStatistic(items_base=frozenset({'Colisão lateral mesmo sentido'}), items_add=frozenset({'Manobra de mudança de faixa'}), confidence=0.29156193895870736, lift=5.0638094667535025), OrderedStatistic(items_base=frozenset({'Manobra de mudança de faixa'}), items_add=frozenset({'Colisão lateral mesmo sentido'}), confidence=0.4370290635091496, lift=5.063809466753502)]
+
+frozenset({'Colisão transversal', 'Desrespeitar a preferência no cruzamento'})
+0.02355165093974186
+[OrderedStatistic(items_base=frozenset({'Desrespeitar a preferência no cruzamento'}), items_add=frozenset({'Colisão transversal'}), confidence=0.8690680388793596, lift=6.994485866222096)]
+
+frozenset({'Colisão traseira', 'Condutor deixou de manter distância do veículo da frente'})
+0.059870775809975366
+[OrderedStatistic(items_base=frozenset({'Colisão traseira'}), items_add=frozenset({'Condutor deixou de manter distância do veículo da frente'}), confidence=0.31384015594541914, lift=3.957586913747832), OrderedStatistic(items_base=frozenset({'Condutor deixou de manter distância do veículo da frente'}), items_add=frozenset({'Colisão traseira'}), confidence=0.7549824150058617, lift=3.957586913747832)]
+
+frozenset({'Demais falhas mecânicas ou elétricas', 'Incêndio'})
+0.015726924805156573
+[OrderedStatistic(items_base=frozenset({'Demais falhas mecânicas ou elétricas'}), items_add=frozenset({'Incêndio'}), confidence=0.3724770642201835, lift=20.493859546211784), OrderedStatistic(items_base=frozenset({'Incêndio'}), items_add=frozenset({'Demais falhas mecânicas ou elétricas'}), confidence=0.8653026427962489, lift=20.493859546211784)]
+
+frozenset({'Incêndio', 'Sem Vítimas'})
+0.017446815104045617
+[OrderedStatistic(items_base=frozenset({'Incêndio'}), items_add=frozenset({'Sem Vítimas'}), confidence=0.959931798806479, lift=5.30011449766202)]
+
+frozenset({'Colisão transversal', 'Com Vítimas Feridas', 'Acessar a via sem observar a presença dos outros veículos'})
+0.043369125644958866
+[OrderedStatistic(items_base=frozenset({'Acessar a via sem observar a presença dos outros veículos'}), items_add=frozenset({'Colisão transversal', 'Com Vítimas Feridas'}), confidence=0.5387872954764197, lift=5.165299058638243), OrderedStatistic(items_base=frozenset({'Colisão transversal'}), items_add=frozenset({'Com Vítimas Feridas', 'Acessar a via sem observar a presença dos outros veículos'}), confidence=0.3490460157126824, lift=5.1561182897873215), OrderedStatistic(items_base=frozenset({'Com Vítimas Feridas', 'Acessar a via sem observar a presença dos outros veículos'}), items_add=frozenset({'Colisão transversal'}), confidence=0.6406500343327993, lift=5.156118289787322), OrderedStatistic(items_base=frozenset({'Colisão transversal', 'Com Vítimas Feridas'}), items_add=frozenset({'Acessar a via sem observar a presença dos outros veículos'}), confidence=0.41577540106951877, lift=5.165299058638243)]
+
+frozenset({'Colisão transversal', 'Acessar a via sem observar a presença dos outros veículos', 'Céu Claro'})
+0.03366956413951254
+[OrderedStatistic(items_base=frozenset({'Acessar a via sem observar a presença dos outros veículos'}), items_add=frozenset({'Colisão transversal', 'Céu Claro'}), confidence=0.41828681424446573, lift=5.160736513959773), OrderedStatistic(items_base=frozenset({'Colisão transversal'}), items_add=frozenset({'Céu Claro', 'Acessar a via sem observar a presença dos outros veículos'}), confidence=0.27098141912956725, lift=5.048749944920075), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Acessar a via sem observar a presença dos outros veículos'}), items_add=frozenset({'Colisão transversal'}), confidence=0.6273094688221708, lift=5.048749944920075), OrderedStatistic(items_base=frozenset({'Colisão transversal', 'Céu Claro'}), items_add=frozenset({'Acessar a via sem observar a presença dos outros veículos'}), confidence=0.41540814375836355, lift=5.160736513959773)]
+
+frozenset({'Com Vítimas Feridas', 'Animais na Pista', 'Atropelamento de Animal'})
+0.011078572645996994
+[OrderedStatistic(items_base=frozenset({'Animais na Pista'}), items_add=frozenset({'Com Vítimas Feridas', 'Atropelamento de Animal'}), confidence=0.5894476504534213, lift=50.85877261044566), OrderedStatistic(items_base=frozenset({'Atropelamento de Animal'}), items_add=frozenset({'Com Vítimas Feridas', 'Animais na Pista'}), confidence=0.731083844580777, lift=49.71909404151609), OrderedStatistic(items_base=frozenset({'Animais na Pista', 'Com Vítimas Feridas'}), items_add=frozenset({'Atropelamento de Animal'}), confidence=0.7534246575342466, lift=49.719094041516094), OrderedStatistic(items_base=frozenset({'Atropelamento de Animal', 'Com Vítimas Feridas'}), items_add=frozenset({'Animais na Pista'}), confidence=0.9558823529411765, lift=50.85877261044566)]
+
+frozenset({'Colisão frontal', 'Céu Claro', 'Com Vítimas Fatais'})
+0.011078572645996994
+[OrderedStatistic(items_base=frozenset({'Colisão frontal', 'Céu Claro'}), items_add=frozenset({'Com Vítimas Fatais'}), confidence=0.28083267871170464, lift=3.8860763832278526), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Com Vítimas Fatais'}), items_add=frozenset({'Colisão frontal'}), confidence=0.24809160305343508, lift=3.68421168188349)]
+
+frozenset({'Colisão frontal', 'Com Vítimas Feridas', 'Transitar na contramão'})
+0.010861649545236213
+[OrderedStatistic(items_base=frozenset({'Transitar na contramão'}), items_add=frozenset({'Colisão frontal', 'Com Vítimas Feridas'}), confidence=0.39382022471910105, lift=8.984363196587509), OrderedStatistic(items_base=frozenset({'Colisão frontal', 'Com Vítimas Feridas'}), items_add=frozenset({'Transitar na contramão'}), confidence=0.24779073877695296, lift=8.984363196587509), OrderedStatistic(items_base=frozenset({'Com Vítimas Feridas', 'Transitar na contramão'}), items_add=frozenset({'Colisão frontal'}), confidence=0.6361161524500907, lift=9.446456595254581)]
+
+frozenset({'Colisão frontal', 'Céu Claro', 'Transitar na contramão'})
+0.011713847441082136
+[OrderedStatistic(items_base=frozenset({'Transitar na contramão'}), items_add=frozenset({'Colisão frontal', 'Céu Claro'}), confidence=0.42471910112359545, lift=10.766278895292901), OrderedStatistic(items_base=frozenset({'Colisão frontal', 'Céu Claro'}), items_add=frozenset({'Transitar na contramão'}), confidence=0.2969363707776905, lift=10.766278895292901), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Transitar na contramão'}), items_add=frozenset({'Colisão frontal'}), confidence=0.685403445149592, lift=10.178383098598601)]
+
+frozenset({'Com Vítimas Feridas', 'Manobra de mudança de faixa', 'Colisão lateral mesmo sentido'})
+0.021428903453725653
+[OrderedStatistic(items_base=frozenset({'Colisão lateral mesmo sentido'}), items_add=frozenset({'Com Vítimas Feridas', 'Manobra de mudança de faixa'}), confidence=0.248294434470377, lift=5.219763682828554), OrderedStatistic(items_base=frozenset({'Manobra de mudança de faixa'}), items_add=frozenset({'Com Vítimas Feridas', 'Colisão lateral mesmo sentido'}), confidence=0.37217438105489775, lift=5.374751035780274), OrderedStatistic(items_base=frozenset({'Com Vítimas Feridas', 'Colisão lateral mesmo sentido'}), items_add=frozenset({'Manobra de mudança de faixa'}), confidence=0.3094652047437905, lift=5.374751035780274), OrderedStatistic(items_base=frozenset({'Com Vítimas Feridas', 'Manobra de mudança de faixa'}), items_add=frozenset({'Colisão lateral mesmo sentido'}), confidence=0.4504885993485342, lift=5.219763682828554)]
+
+frozenset({'Céu Claro', 'Manobra de mudança de faixa', 'Colisão lateral mesmo sentido'})
+0.01608329847069214
+[OrderedStatistic(items_base=frozenset({'Manobra de mudança de faixa'}), items_add=frozenset({'Céu Claro', 'Colisão lateral mesmo sentido'}), confidence=0.27933261571582346, lift=5.104147136376991), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Colisão lateral mesmo sentido'}), items_add=frozenset({'Manobra de mudança de faixa'}), confidence=0.2938844847112118, lift=5.104147136376991), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Manobra de mudança de faixa'}), items_add=frozenset({'Colisão lateral mesmo sentido'}), confidence=0.43304130162703386, lift=5.017603692227493)]
+
+frozenset({'Colisão transversal', 'Com Vítimas Feridas', 'Desrespeitar a preferência no cruzamento'})
+0.020390771471513348
+[OrderedStatistic(items_base=frozenset({'Desrespeitar a preferência no cruzamento'}), items_add=frozenset({'Colisão transversal', 'Com Vítimas Feridas'}), confidence=0.7524299599771298, lift=7.213469576197858), OrderedStatistic(items_base=frozenset({'Com Vítimas Feridas', 'Desrespeitar a preferência no cruzamento'}), items_add=frozenset({'Colisão transversal'}), confidence=0.8663594470046083, lift=6.972686413546628)]
+
+frozenset({'Colisão transversal', 'Desrespeitar a preferência no cruzamento', 'Céu Claro'})
+0.015122639024465827
+[OrderedStatistic(items_base=frozenset({'Desrespeitar a preferência no cruzamento'}), items_add=frozenset({'Colisão transversal', 'Céu Claro'}), confidence=0.5580331618067467, lift=6.884898151375573), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Desrespeitar a preferência no cruzamento'}), items_add=frozenset({'Colisão transversal'}), confidence=0.8644818423383525, lift=6.9575749622989065)]
+
+frozenset({'Com Vítimas Feridas', 'Colisão traseira', 'Condutor deixou de manter distância do veículo da frente'})
+0.04670044469235656
+[OrderedStatistic(items_base=frozenset({'Colisão traseira'}), items_add=frozenset({'Com Vítimas Feridas', 'Condutor deixou de manter distância do veículo da frente'}), confidence=0.2448018193632229, lift=3.9311432246536557), OrderedStatistic(items_base=frozenset({'Condutor deixou de manter distância do veículo da frente'}), items_add=frozenset({'Com Vítimas Feridas', 'Colisão traseira'}), confidence=0.5889019148104728, lift=4.015970063393185), OrderedStatistic(items_base=frozenset({'Com Vítimas Feridas', 'Colisão traseira'}), items_add=frozenset({'Condutor deixou de manter distância do veículo da frente'}), confidence=0.31846999154691463, lift=4.015970063393185), OrderedStatistic(items_base=frozenset({'Com Vítimas Feridas', 'Condutor deixou de manter distância do veículo da frente'}), items_add=frozenset({'Colisão traseira'}), confidence=0.7499377954715104, lift=3.9311432246536557)]
+
+frozenset({'Céu Claro', 'Colisão traseira', 'Condutor deixou de manter distância do veículo da frente'})
+0.03847286137064411
+[OrderedStatistic(items_base=frozenset({'Colisão traseira'}), items_add=frozenset({'Céu Claro', 'Condutor deixou de manter distância do veículo da frente'}), confidence=0.20167316439246266, lift=3.976713827291521), OrderedStatistic(items_base=frozenset({'Condutor deixou de manter distância do veículo da frente'}), items_add=frozenset({'Céu Claro', 'Colisão traseira'}), confidence=0.4851504493942947, lift=4.02819051247374), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Colisão traseira'}), items_add=frozenset({'Condutor deixou de manter distância do veículo da frente'}), confidence=0.31943908400874826, lift=4.02819051247374), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Condutor deixou de manter distância do veículo da frente'}), items_add=frozenset({'Colisão traseira'}), confidence=0.7586312251756798, lift=3.976713827291521)]
+
+frozenset({'Colisão traseira', 'Condutor deixou de manter distância do veículo da frente', 'Sem Vítimas'})
+0.011992748570631711
+[OrderedStatistic(items_base=frozenset({'Colisão traseira', 'Sem Vítimas'}), items_add=frozenset({'Condutor deixou de manter distância do veículo da frente'}), confidence=0.3313356164383562, lift=4.178208157349564), OrderedStatistic(items_base=frozenset({'Condutor deixou de manter distância do veículo da frente', 'Sem Vítimas'}), items_add=frozenset({'Colisão traseira'}), confidence=0.7771084337349398, lift=4.073570598182203)]
+
+frozenset({'Colisão traseira', 'Condutor deixou de manter distância do veículo da frente', 'sexta-feira'})
+0.010629231937278235
+[OrderedStatistic(items_base=frozenset({'Colisão traseira', 'sexta-feira'}), items_add=frozenset({'Condutor deixou de manter distância do veículo da frente'}), confidence=0.3213114754098361, lift=4.0518017412026985), OrderedStatistic(items_base=frozenset({'Condutor deixou de manter distância do veículo da frente', 'sexta-feira'}), items_add=frozenset({'Colisão traseira'}), confidence=0.7456521739130435, lift=3.908678171878973)]
+
+frozenset({'Com Vítimas Feridas', 'Condutor Dormindo', 'Saída de leito carroçável'})
+0.012906924495266429
+[OrderedStatistic(items_base=frozenset({'Condutor Dormindo'}), items_add=frozenset({'Com Vítimas Feridas', 'Saída de leito carroçável'}), confidence=0.3604500216356556, lift=3.0476986697685806)]
+
+frozenset({'Céu Claro', 'Condutor Dormindo', 'Saída de leito carroçável'})
+0.010970111095616604
+[OrderedStatistic(items_base=frozenset({'Condutor Dormindo'}), items_add=frozenset({'Céu Claro', 'Saída de leito carroçável'}), confidence=0.3063608827347469, lift=3.493325973642726)]
+
+frozenset({'Demais falhas mecânicas ou elétricas', 'Céu Claro', 'Incêndio'})
+0.010319341793334264
+[OrderedStatistic(items_base=frozenset({'Demais falhas mecânicas ou elétricas'}), items_add=frozenset({'Céu Claro', 'Incêndio'}), confidence=0.24440366972477068, lift=20.45858422875094), OrderedStatistic(items_base=frozenset({'Incêndio'}), items_add=frozenset({'Demais falhas mecânicas ou elétricas', 'Céu Claro'}), confidence=0.5677749360613811, lift=20.482742648667116), OrderedStatistic(items_base=frozenset({'Demais falhas mecânicas ou elétricas', 'Céu Claro'}), items_add=frozenset({'Incêndio'}), confidence=0.37227501397428736, lift=20.48274264866712), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Incêndio'}), items_add=frozenset({'Demais falhas mecânicas ou elétricas'}), confidence=0.8638132295719845, lift=20.45858422875094)]
+
+frozenset({'Céu Claro', 'Incêndio', 'Sem Vítimas'})
+0.011496924340321357
+[OrderedStatistic(items_base=frozenset({'Incêndio'}), items_add=frozenset({'Céu Claro', 'Sem Vítimas'}), confidence=0.6325660699062233, lift=5.82883803336347), OrderedStatistic(items_base=frozenset({'Céu Claro', 'Incêndio'}), items_add=frozenset({'Sem Vítimas'}), confidence=0.9623865110246433, lift=5.313667810336167)]
+
+frozenset({'Demais falhas mecânicas ou elétricas', 'Incêndio', 'Sem Vítimas'})
+0.015107144517268628
+[OrderedStatistic(items_base=frozenset({'Demais falhas mecânicas ou elétricas'}), items_add=frozenset({'Incêndio', 'Sem Vítimas'}), confidence=0.3577981651376147, lift=20.50793586129353), OrderedStatistic(items_base=frozenset({'Incêndio'}), items_add=frozenset({'Demais falhas mecânicas ou elétricas', 'Sem Vítimas'}), confidence=0.8312020460358056, lift=40.48675384838102), OrderedStatistic(items_base=frozenset({'Demais falhas mecânicas ou elétricas', 'Incêndio'}), items_add=frozenset({'Sem Vítimas'}), confidence=0.960591133004926, lift=5.303754909145771), OrderedStatistic(items_base=frozenset({'Demais falhas mecânicas ou elétricas', 'Sem Vítimas'}), items_add=frozenset({'Incêndio'}), confidence=0.7358490566037735, lift=40.48675384838102), OrderedStatistic(items_base=frozenset({'Incêndio', 'Sem Vítimas'}), items_add=frozenset({'Demais falhas mecânicas ou elétricas'}), confidence=0.8658969804618116, lift=20.50793586129353)]
+
