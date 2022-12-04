@@ -1,0 +1,237 @@
+60
+frozenset({'155.0', 'Simples'})
+0.0006042857806907451
+[OrderedStatistic(items_base=frozenset({'155.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'156.0', 'Simples'})
+0.0011620880397898944
+[OrderedStatistic(items_base=frozenset({'156.0'}), items_add=frozenset({'Simples'}), confidence=0.9868421052631577, lift=2.00250912220025)]
+
+frozenset({'251.0', 'Simples'})
+0.004230000464835216
+[OrderedStatistic(items_base=frozenset({'251.0'}), items_add=frozenset({'Simples'}), confidence=0.9891304347826085, lift=2.0071526216140474)]
+
+frozenset({'Colisão frontal', '308.0'})
+0.00015494507197198594
+[OrderedStatistic(items_base=frozenset({'308.0'}), items_add=frozenset({'Colisão frontal'}), confidence=0.5263157894736842, lift=7.815898466829753)]
+
+frozenset({'Simples', '308.0'})
+0.0002943956367467733
+[OrderedStatistic(items_base=frozenset({'308.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'330.0', 'Simples'})
+0.0005887912734935466
+[OrderedStatistic(items_base=frozenset({'330.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'349.0', 'Simples'})
+0.00010846155038039015
+[OrderedStatistic(items_base=frozenset({'349.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'Simples', '359.0'})
+0.00015494507197198594
+[OrderedStatistic(items_base=frozenset({'359.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'361.0', 'Simples'})
+0.0005887912734935466
+[OrderedStatistic(items_base=frozenset({'361.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'Simples', '410.0'})
+0.00032538465114117046
+[OrderedStatistic(items_base=frozenset({'410.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'412.0', 'Simples'})
+0.00032538465114117046
+[OrderedStatistic(items_base=frozenset({'412.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'415.0', 'Simples'})
+0.0006662638094795396
+[OrderedStatistic(items_base=frozenset({'415.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'418.0', 'Simples'})
+0.0003718681727327662
+[OrderedStatistic(items_base=frozenset({'418.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'419.0', 'Simples'})
+0.00015494507197198594
+[OrderedStatistic(items_base=frozenset({'419.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'420.0', 'Simples'})
+0.0001859340863663831
+[OrderedStatistic(items_base=frozenset({'420.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'Simples', '421.0'})
+0.00010846155038039015
+[OrderedStatistic(items_base=frozenset({'421.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'424.0', 'Simples'})
+0.001332527618959079
+[OrderedStatistic(items_base=frozenset({'424.0'}), items_add=frozenset({'Simples'}), confidence=0.9885057471264368, lift=2.005884999647637)]
+
+frozenset({'Simples', '432.0'})
+0.00010846155038039015
+[OrderedStatistic(items_base=frozenset({'432.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'436.0', 'Simples'})
+0.00012395605757758874
+[OrderedStatistic(items_base=frozenset({'436.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'Dupla', '447.0'})
+0.00010846155038039015
+[OrderedStatistic(items_base=frozenset({'447.0'}), items_add=frozenset({'Dupla'}), confidence=1.0, lift=2.37014322438487)]
+
+frozenset({'Dupla', '467.0'})
+0.0012860440973674833
+[OrderedStatistic(items_base=frozenset({'467.0'}), items_add=frozenset({'Dupla'}), confidence=0.9431818181818182, lift=2.2354759957266386)]
+
+frozenset({'Simples', '469.0'})
+0.000495824230310355
+[OrderedStatistic(items_base=frozenset({'469.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'472.0', 'Simples'})
+0.0016424177629030508
+[OrderedStatistic(items_base=frozenset({'472.0'}), items_add=frozenset({'Simples'}), confidence=0.9906542056074765, lift=2.010244671457347)]
+
+frozenset({'Dupla', '488.0'})
+0.0004338462015215606
+[OrderedStatistic(items_base=frozenset({'488.0'}), items_add=frozenset({'Dupla'}), confidence=0.903225806451613, lift=2.1407745252508503)]
+
+frozenset({'Simples', '495.0'})
+0.0002479121151551775
+[OrderedStatistic(items_base=frozenset({'495.0'}), items_add=frozenset({'Simples'}), confidence=1.0, lift=2.0292092438295866)]
+
+frozenset({'50.0', 'Dupla'})
+0.011187034196377385
+[OrderedStatistic(items_base=frozenset({'50.0'}), items_add=frozenset({'Dupla'}), confidence=0.8615751789976135, lift=2.0420565727993747)]
+
+frozenset({'Colisão transversal', 'Acessar a via sem observar a presença dos outros veículos'})
+0.05052758797006461
+[OrderedStatistic(items_base=frozenset({'Acessar a via sem observar a presença dos outros veículos'}), items_add=frozenset({'Colisão transversal'}), confidence=0.6277189605389797, lift=5.052045640881059)]
+
+frozenset({'Animais na Pista', 'Atropelamento de Animal'})
+0.014456375214986288
+[OrderedStatistic(items_base=frozenset({'Animais na Pista'}), items_add=frozenset({'Atropelamento de Animal'}), confidence=0.7691673536685902, lift=50.757967114945956), OrderedStatistic(items_base=frozenset({'Atropelamento de Animal'}), items_add=frozenset({'Animais na Pista'}), confidence=0.9539877300613497, lift=50.75796711494596)]
+
+frozenset({'Noite', 'Atropelamento de Animal'})
+0.009653077983854723
+[OrderedStatistic(items_base=frozenset({'Atropelamento de Animal'}), items_add=frozenset({'Noite'}), confidence=0.6370143149284253, lift=2.014714636438579)]
+
+frozenset({'Atropelamento de Pedestre', 'Entrada inopinada do pedestre'})
+0.008552967972853624
+[OrderedStatistic(items_base=frozenset({'Entrada inopinada do pedestre'}), items_add=frozenset({'Atropelamento de Pedestre'}), confidence=0.9566724436741769, lift=21.21012808048358)]
+
+frozenset({'Pedestre andava na pista', 'Atropelamento de Pedestre'})
+0.01045879235810905
+[OrderedStatistic(items_base=frozenset({'Pedestre andava na pista'}), items_add=frozenset({'Atropelamento de Pedestre'}), confidence=0.9629101283880173, lift=21.348422114748967)]
+
+frozenset({'Pedestre cruzava a pista fora da faixa', 'Atropelamento de Pedestre'})
+0.008847363609600397
+[OrderedStatistic(items_base=frozenset({'Pedestre cruzava a pista fora da faixa'}), items_add=frozenset({'Atropelamento de Pedestre'}), confidence=0.9596638655462184, lift=21.276450092232015)]
+
+frozenset({'Atropelamento de Pedestre', 'Área urbana sem a presença de local apropriado para a travessia de pedestres'})
+0.001595934241311455
+[OrderedStatistic(items_base=frozenset({'Área urbana sem a presença de local apropriado para a travessia de pedestres'}), items_add=frozenset({'Atropelamento de Pedestre'}), confidence=0.9279279279279279, lift=20.57284113381674)]
+
+frozenset({'Chuva', 'Pista Escorregadia'})
+0.012953408016858023
+[OrderedStatistic(items_base=frozenset({'Pista Escorregadia'}), items_add=frozenset({'Chuva'}), confidence=0.6688, lift=6.29575309218203)]
+
+frozenset({'Objeto estático sobre o leito carroçável', 'Colisão com objeto'})
+0.003238352004214506
+[OrderedStatistic(items_base=frozenset({'Objeto estático sobre o leito carroçável'}), items_add=frozenset({'Colisão com objeto'}), confidence=0.5514511873350924, lift=7.251448284315307)]
+
+frozenset({'Colisão frontal', 'Transitar na contramão'})
+0.01893428779497668
+[OrderedStatistic(items_base=frozenset({'Transitar na contramão'}), items_add=frozenset({'Colisão frontal'}), confidence=0.6865168539325842, lift=10.194917449598494)]
+
+frozenset({'Colisão transversal', 'Condutor desrespeitou a iluminação vermelha do semáforo'})
+0.004493407087187592
+[OrderedStatistic(items_base=frozenset({'Condutor desrespeitou a iluminação vermelha do semáforo'}), items_add=frozenset({'Colisão transversal'}), confidence=0.9090909090909091, lift=7.316600346903377)]
+
+frozenset({'Colisão transversal', 'Conversão proibida'})
+0.007979671206557275
+[OrderedStatistic(items_base=frozenset({'Conversão proibida'}), items_add=frozenset({'Colisão transversal'}), confidence=0.5899198167239404, lift=4.747828289256315)]
+
+frozenset({'Colisão transversal', 'Desrespeitar a preferência no cruzamento'})
+0.02355165093974186
+[OrderedStatistic(items_base=frozenset({'Desrespeitar a preferência no cruzamento'}), items_add=frozenset({'Colisão transversal'}), confidence=0.8690680388793596, lift=6.994485866222096)]
+
+frozenset({'Colisão transversal', 'Interseção de vias'})
+0.024372859821193388
+[OrderedStatistic(items_base=frozenset({'Interseção de vias'}), items_add=frozenset({'Colisão transversal'}), confidence=0.5795873249815771, lift=4.664669705323107)]
+
+frozenset({'Colisão transversal', 'Retorno proibido'})
+0.00319186848262291
+[OrderedStatistic(items_base=frozenset({'Retorno proibido'}), items_add=frozenset({'Colisão transversal'}), confidence=0.6843853820598007, lift=5.508111756173772)]
+
+frozenset({'Condutor deixou de manter distância do veículo da frente', 'Colisão traseira'})
+0.059870775809975366
+[OrderedStatistic(items_base=frozenset({'Condutor deixou de manter distância do veículo da frente'}), items_add=frozenset({'Colisão traseira'}), confidence=0.7549824150058617, lift=3.957586913747832)]
+
+frozenset({'Colisão traseira', 'Deficiência do Sistema de Iluminação/Sinalização'})
+0.001719890298889044
+[OrderedStatistic(items_base=frozenset({'Deficiência do Sistema de Iluminação/Sinalização'}), items_add=frozenset({'Colisão traseira'}), confidence=0.6065573770491803, lift=3.1795489406576554)]
+
+frozenset({'Estacionar ou parar em local proibido', 'Colisão traseira'})
+0.0017043957916918452
+[OrderedStatistic(items_base=frozenset({'Estacionar ou parar em local proibido'}), items_add=frozenset({'Colisão traseira'}), confidence=0.7482993197278912, lift=3.9225544018777105)]
+
+frozenset({'Condutor desrespeitou a iluminação vermelha do semáforo', 'Interseção de vias'})
+0.002463626644354576
+[OrderedStatistic(items_base=frozenset({'Condutor desrespeitou a iluminação vermelha do semáforo'}), items_add=frozenset({'Interseção de vias'}), confidence=0.49843260188087773, lift=11.852741964918929)]
+
+frozenset({'Curva', 'Curva acentuada'})
+0.003951099335285641
+[OrderedStatistic(items_base=frozenset({'Curva acentuada'}), items_add=frozenset({'Curva'}), confidence=0.7846153846153845, lift=5.1613792995303545)]
+
+frozenset({'Curva', 'Restrição de visibilidade em curvas horizontais'})
+0.0002324176079579789
+[OrderedStatistic(items_base=frozenset({'Restrição de visibilidade em curvas horizontais'}), items_add=frozenset({'Curva'}), confidence=0.6, lift=3.9469371114055654)]
+
+frozenset({'Noite', 'Deficiência do Sistema de Iluminação/Sinalização'})
+0.0020452749500302144
+[OrderedStatistic(items_base=frozenset({'Deficiência do Sistema de Iluminação/Sinalização'}), items_add=frozenset({'Noite'}), confidence=0.7213114754098361, lift=2.2813251647297568)]
+
+frozenset({'Noite', 'Deficiência do sistema de iluminação/sinalização'})
+0.0019987914284386185
+[OrderedStatistic(items_base=frozenset({'Deficiência do sistema de iluminação/sinalização'}), items_add=frozenset({'Noite'}), confidence=0.8012422360248448, lift=2.534125878212656)]
+
+frozenset({'Noite', 'Deixar de acionar o farol da motocicleta (ou similar)'})
+0.00020142859356358172
+[OrderedStatistic(items_base=frozenset({'Deixar de acionar o farol da motocicleta (ou similar)'}), items_add=frozenset({'Noite'}), confidence=0.9285714285714286, lift=2.936835804595287)]
+
+frozenset({'Incêndio', 'Demais falhas mecânicas ou elétricas'})
+0.015726924805156573
+[OrderedStatistic(items_base=frozenset({'Incêndio'}), items_add=frozenset({'Demais falhas mecânicas ou elétricas'}), confidence=0.8653026427962489, lift=20.493859546211784)]
+
+frozenset({'Derramamento de carga', 'Sem Vítimas'})
+0.0017353848060862424
+[OrderedStatistic(items_base=frozenset({'Derramamento de carga'}), items_add=frozenset({'Sem Vítimas'}), confidence=0.717948717948718, lift=3.964042459379956)]
+
+frozenset({'Saída de leito carroçável', 'Falta de elemento de contenção que evite a saída do leito carroçável'})
+0.0008676924030431212
+[OrderedStatistic(items_base=frozenset({'Falta de elemento de contenção que evite a saída do leito carroçável'}), items_add=frozenset({'Saída de leito carroçável'}), confidence=0.7567567567567568, lift=4.585084897138971)]
+
+frozenset({'Faróis desregulados', 'Noite'})
+0.00012395605757758874
+[OrderedStatistic(items_base=frozenset({'Faróis desregulados'}), items_add=frozenset({'Noite'}), confidence=0.8888888888888887, lift=2.8113300009801034)]
+
+frozenset({'Incêndio', 'Sem Vítimas'})
+0.017446815104045617
+[OrderedStatistic(items_base=frozenset({'Incêndio'}), items_add=frozenset({'Sem Vítimas'}), confidence=0.959931798806479, lift=5.30011449766202)]
+
+frozenset({'Manhã', 'Neblina'})
+0.0005423077519019508
+[OrderedStatistic(items_base=frozenset({'Neblina'}), items_add=frozenset({'Manhã'}), confidence=0.7, lift=2.3155971296770885)]
+
+frozenset({'Neblina', 'Nevoeiro/Neblina'})
+0.0007282418382683339
+[OrderedStatistic(items_base=frozenset({'Neblina'}), items_add=frozenset({'Nevoeiro/Neblina'}), confidence=0.94, lift=124.31692622950818)]
+
+frozenset({'Vento', 'Noite'})
+0.0014254946621422705
+[OrderedStatistic(items_base=frozenset({'Vento'}), items_add=frozenset({'Noite'}), confidence=0.6388888888888888, lift=2.02064343820445)]
+
+frozenset({'Sem Vítimas', 'nan'})
+0.0014719781837338663
+[OrderedStatistic(items_base=frozenset({'nan'}), items_add=frozenset({'Sem Vítimas'}), confidence=0.5688622754491018, lift=3.1408847972632032)]
+

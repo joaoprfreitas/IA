@@ -57,8 +57,9 @@ df.loc[df['causa_acidente'] == 'Sinalização mal posicionada', 'causa_acidente'
 df.loc[df['causa_acidente'] == 'Sinalização encoberta', 'causa_acidente'] = 'Problema de sinalização'
 df.loc[df['causa_acidente'] == 'Ausência de sinalização', 'causa_acidente'] = 'Problema de sinalização'
 
-df = df[['dia_semana','causa_acidente', 'tipo_acidente', 'condicao_metereologica', 'fase_dia', 'classificacao_acidente']]
+df = df[['dia_semana','causa_acidente', 'br', 'tipo_acidente', 'condicao_metereologica', 'fase_dia', 'classificacao_acidente', 'tracado_via', 'tipo_pista']]
 # print(df['fase_dia'])
+df['br'] = df['br'].astype(str)
 # df['fase_dia'] = df[df['fase_dia'] != 'ceu claro']
 # print(df.head())
 
@@ -67,16 +68,33 @@ df = df[['dia_semana','causa_acidente', 'tipo_acidente', 'condicao_metereologica
 def generateRecords(df):
     records = []
     for i in range(0, len(df)):
+        # ignore all records that relate 'br' field with 'trcado_via' field
         records.append([str(df.values[i, j]) for j in range(0, len(df.columns))])
+        # for j in range(0, len(df.columns)):
+        #     # if i == df.columns.get_loc('tracado_via') and j == df.columns.get_loc('br'):
+        #     #     continue
+        #     # elif j == df.columns.get_loc('tracado_via') and i == df.columns.get_loc('br'):
+        #     #     continue
+
+        #     records.append([str(df.values[i, j])])
     return records
 records = generateRecords(df)
+br = list(df['br'].unique())
+tipo_via = list(df['tracado_via'].unique())
 # print(records)
-    
-association_rules = apriori(records, min_support=0.0001, min_confidence=0.2, min_lift=2, min_length=2, max_length=2)
+association_rules = apriori(records, min_support=0.0001, min_confidence=0.49, min_lift=2, min_length=2, max_length=2)
 association_results = list(association_rules)
+# association_results = [x for x in association_results if not ('br' in x[0] and 'tracado_via' in x[0])]
+# print(br, '\n', tipo_via)
 print(len(association_results))
 for i in association_results:
-    print(i.items)
-    print(i.support)
-    print(i.ordered_statistics)
-    print('')
+    check = list(i.items)
+    if str(check[0]) in br and str(check[1]) in tipo_via:
+        continue
+    elif str(check[1]) in br and str(check[0]) in tipo_via:
+        continue
+    else:
+        print(i.items)
+        print(i.support)
+        print(i.ordered_statistics, sep='\n')
+        print('')
