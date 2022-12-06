@@ -49,14 +49,6 @@ def generateRecords(df):
         records.append([str(df.values[i, j]) for j in range(0, len(df.columns))])
     return records
 
-def last(n):
-    return n[-1]
-
-def getAccidentsByValue(lista, value, df):
-    for i in df[value].unique():
-        lista.append((i, len(df[df[value] == i])))
-    return sorted(lista, key=last, reverse=True)
-
 def main():
     data = openDataSet()
     df = preProcessing(data)
@@ -67,7 +59,7 @@ def main():
     tipo_pista = list(df['tipo_pista'].unique())
     tracado_via = list(df['tracado_via'].unique())
 
-    association_rules = apriori(records, min_support=0.001, min_confidence=0.50, min_lift=2, min_length=2, max_length=2)
+    association_rules = apriori(records, min_support=0.01, min_confidence=0.50, min_lift=2, min_length=2, max_length=4)
     association_results = list(association_rules)
 
     # sort the results by confidence
