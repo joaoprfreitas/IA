@@ -1,0 +1,64 @@
+item_base;item_add;support;confidence;lift
+frozenset({'10.0'});frozenset({'Simples'});0.005564302583553997;0.9810725552050473;2.0028529204295604
+frozenset({'146.0'});frozenset({'Simples'});0.0007335575753238388;1.0;2.041493169698298
+frozenset({'155.0'});frozenset({'Simples'});0.0006083160380734274;1.0;2.041493169698298
+frozenset({'156.0'});frozenset({'Simples'});0.001234523724325485;0.9857142857142859;2.012328981559751
+frozenset({'251.0'});frozenset({'Simples'});0.003649896228440564;0.9855072463768116;2.0119063121664387
+frozenset({'308.0'});frozenset({'Colisão frontal'});0.00016102483360767194;0.5;7.464209401709402
+frozenset({'308.0'});frozenset({'Simples'});0.0003220496672153439;1.0;2.041493169698298
+frozenset({'330.0'});frozenset({'Simples'});0.0005546410935375367;1.0;2.041493169698298
+frozenset({'349.0'});frozenset({'Simples'});0.0001252415372504115;1.0;2.041493169698298
+frozenset({'354.0'});frozenset({'Curva'});0.0008230158162169899;0.5348837209302326;3.0615177603924795
+frozenset({'359.0'});frozenset({'Simples'});0.00017891648178630214;1.0;2.041493169698298
+frozenset({'361.0'});frozenset({'Simples'});0.0006440993344306878;1.0;2.041493169698298
+frozenset({'410.0'});frozenset({'Simples'});0.0003220496672153439;1.0;2.041493169698298
+frozenset({'412.0'});frozenset({'Simples'});0.0003220496672153439;1.0;2.041493169698298
+frozenset({'415.0'});frozenset({'Simples'});0.0007156659271452086;1.0;2.041493169698298
+frozenset({'418.0'});frozenset({'Simples'});0.00041150790810849495;1.0;2.041493169698298
+frozenset({'419.0'});frozenset({'Simples'});0.00017891648178630214;1.0;2.041493169698298
+frozenset({'420.0'});frozenset({'Simples'});0.00016102483360767194;1.0;2.041493169698298
+frozenset({'421.0'});frozenset({'Simples'});0.0001252415372504115;1.0;2.041493169698298
+frozenset({'424.0'});frozenset({'Simples'});0.0013060903170400058;1.0;2.041493169698298
+frozenset({'427.0'});frozenset({'Simples'});0.0011987404279682244;0.9852941176470588;2.0114712113203814
+frozenset({'432.0'});frozenset({'Simples'});0.0001252415372504115;1.0;2.041493169698298
+frozenset({'436.0'});frozenset({'Rotatória'});0.00010734988907178129;0.7499999999999999;35.76706484641638
+frozenset({'436.0'});frozenset({'Simples'});0.00014313318542904174;1.0;2.041493169698298
+frozenset({'447.0'});frozenset({'Dupla'});0.0001252415372504115;1.0;2.3718226182898365
+frozenset({'467.0'});frozenset({'Dupla'});0.001234523724325485;0.9324324324324325;2.2115643332702533
+frozenset({'468.0'});frozenset({'Simples'});0.0008766907607528806;0.9800000000000001;2.000663306304332
+frozenset({'469.0'});frozenset({'Simples'});0.00044729120446575536;1.0;2.041493169698298
+frozenset({'472.0'});frozenset({'Simples'});0.0017891648178630214;0.9900990099009901;2.0212803660379186
+frozenset({'488.0'});frozenset({'Dupla'});0.0004830745008230158;0.9;2.134640356460853
+frozenset({'495.0'});frozenset({'Curva'});0.00014313318542904174;0.5333333333333334;3.052643795869603
+frozenset({'495.0'});frozenset({'Simples'});0.0002683747226794532;1.0;2.041493169698298
+frozenset({'50.0'});frozenset({'Dupla'});0.009768839905532097;0.8452012383900929;2.0046674142202026
+frozenset({'Acessar a via sem observar a presença dos outros veículos'});frozenset({'Colisão transversal'});0.05134903027266872;0.6220199393151279;4.9750913635090335
+frozenset({'Animais na Pista'});frozenset({'Atropelamento de Animal'});0.015118442710942532;0.7745187901008249;48.969914271849895
+frozenset({'Atropelamento de Animal'});frozenset({'Noite'});0.010090889572747442;0.6380090497737557;2.0037987081341173
+frozenset({'Entrada inopinada do pedestre'});frozenset({'Atropelamento de Pedestre'});0.008838474200243326;0.9536679536679535;20.31341816555231
+frozenset({'Pedestre andava na pista'});frozenset({'Atropelamento de Pedestre'});0.010734988907178129;0.9661835748792269;20.580004713090606
+frozenset({'Pedestre cruzava a pista fora da faixa'});frozenset({'Atropelamento de Pedestre'});0.009303657052887711;0.9558823529411764;20.360585545193686
+frozenset({'Área urbana sem a presença de local apropriado para a travessia de pedestres'});frozenset({'Atropelamento de Pedestre'});0.00166392328061261;0.9207920792079208;19.613152016421154
+frozenset({'Pista Escorregadia'});frozenset({'Chuva'});0.012864095040435125;0.6669758812615956;6.390985077228373
+frozenset({'Objeto estático sobre o leito carroçável'});frozenset({'Colisão com objeto'});0.0031847133757961785;0.5615141955835963;7.513562705185148
+frozenset({'Transitar na contramão'});frozenset({'Colisão frontal'});0.018875688828454876;0.6784565916398714;10.128284139940089
+frozenset({'Condutor desrespeitou a iluminação vermelha do semáforo'});frozenset({'Colisão transversal'});0.004383453803764403;0.914179104477612;7.311862980461174
+frozenset({'Conversão proibida'});frozenset({'Colisão transversal'});0.008087024976740857;0.587012987012987;4.695095860064377
+frozenset({'Desrespeitar a preferência no cruzamento'});frozenset({'Colisão transversal'});0.022901309668646674;0.8683853459972863;6.945591551013212
+frozenset({'Interseção de vias'});frozenset({'Colisão transversal'});0.027928862806841766;0.5815946348733234;4.651758347501401
+frozenset({'Retorno proibido'});frozenset({'Colisão transversal'});0.002987905245831246;0.6733870967741935;5.385940413981571
+frozenset({'Condutor deixou de manter distância do veículo da frente'});frozenset({'Colisão traseira'});0.06095684534459314;0.7559352118926115;3.9825366069471055
+frozenset({'Estacionar ou parar em local proibido'});frozenset({'Colisão traseira'});0.0017712731696843914;0.7674418604651163;4.043157740137269
+frozenset({'Condutor desrespeitou a iluminação vermelha do semáforo'});frozenset({'Interseção de vias'});0.0028447720604022043;0.5932835820895522;12.35462219454145
+frozenset({'Curva acentuada'});frozenset({'Curva'});0.004562370285550705;0.8854166666666667;5.067865676736645
+frozenset({'Restrição de visibilidade em curvas horizontais'});frozenset({'Curva'});0.0002683747226794532;0.8333333333333333;4.769755931046253
+frozenset({'Deficiência do Sistema de Iluminação/Sinalização'});frozenset({'Noite'});0.004007729192013168;0.7724137931034483;2.4259244619093017
+frozenset({'Deixar de acionar o farol da motocicleta (ou similar)'});frozenset({'Noite'});0.00021469977814356258;0.923076923076923;2.8991130245344676
+frozenset({'Incêndio'});frozenset({'Demais falhas mecânicas ou elétricas'});0.015637300508122808;0.8627838104639683;21.150312602829874
+frozenset({'Derramamento de carga'});frozenset({'Sem Vítimas'});0.0017175982251485006;0.7384615384615385;4.107283541416291
+frozenset({'Falta de elemento de contenção que evite a saída do leito carroçável'});frozenset({'Saída de leito carroçável'});0.0008587991125742503;0.7384615384615385;4.463029012509981
+frozenset({'Faróis desregulados'});frozenset({'Noite'});0.0001252415372504115;0.8749999999999999;2.7481175545066305
+frozenset({'Incêndio'});frozenset({'Sem Vítimas'});0.0174085736778072;0.9605133267522211;5.342323699754716
+frozenset({'Neblina'});frozenset({'Manhã'});0.0004830745008230158;0.6428571428571428;2.1292190476190473
+frozenset({'Neblina'});frozenset({'Nevoeiro/Neblina'});0.0006977742789665784;0.9285714285714286;126.58466898954705
+frozenset({'Participar de racha'});frozenset({'Noite'});0.00010734988907178129;0.8571428571428571;2.6920335227820056

@@ -36,7 +36,7 @@ def preProcessing(df):
     df.loc[df['causa_acidente'] == 'Ausência de sinalização', 'causa_acidente'] = 'Problema de sinalização'
 
     df = df[~df['tipo_acidente'].str.contains('Eventos atípicos')]
-    df.loc[df['tracado_via'] == 'Não Informado']
+    df = df[df['tracado_via'] != 'Não Informado']
 
     df = df[['dia_semana','causa_acidente', 'br', 'tipo_acidente', 'condicao_metereologica', 'fase_dia', 'classificacao_acidente', 'tracado_via', 'tipo_pista']]
     df['br'] = df['br'].astype(str)
@@ -49,42 +49,29 @@ def generateRecords(df):
         records.append([str(df.values[i, j]) for j in range(0, len(df.columns))])
     return records
 
+def writeAssociationResults(results):
+    with open('association_rules.csv', 'w') as f:
+        f.write('item_base;item_add;support;confidence;lift\n')
+        for result in results:
+            support = result.support
+            ordered_statistics = result.ordered_statistics
+
+            item_base = ordered_statistics[0].items_base
+            item_add = ordered_statistics[0].items_add
+            confidence = ordered_statistics[0].confidence
+            lift = ordered_statistics[0].lift
+
+            f.write(str(item_base) + ';' + str(item_add) + ';' + str(support) + ';' + str(confidence) + ';' + str(lift) + '\n')
+
 def main():
     data = openDataSet()
     df = preProcessing(data)
 
     records = generateRecords(df)
 
-    br = list(df['br'].unique())
-    tipo_pista = list(df['tipo_pista'].unique())
-    tracado_via = list(df['tracado_via'].unique())
+    association_rules = apriori(records, min_support=0.0001, min_confidence=0.50, min_lift=2, min_length=2, max_length=2)
 
-    association_rules = apriori(records, min_support=0.01, min_confidence=0.50, min_lift=2, min_length=2, max_length=4)
-    association_results = list(association_rules)
-
-    # sort the results by confidence
-    association_results = sorted(association_results, key=lambda x: x[2][0][2], reverse=True)
-
-    teste = list(association_results)
-    results = pd.DataFrame(teste)
-    results.to_csv('results.csv')
-
-    print(len(association_results))
-
-    for i in association_results:
-        check = list(i.items)
-
-        if (check[0] in br):
-            if (check[1] in tipo_pista) or (check[1] in tracado_via):
-                continue
-        if (check[1] in br):
-            if (check[0] in tipo_pista) or (check[0] in tracado_via):
-                continue
-
-        # print(i.items)
-        # print(i.support)
-        print(i.ordered_statistics, sep='\n')
-        print('')
+    writeAssociationResults(list(association_rules))
 
 
 if __name__ == '__main__':
