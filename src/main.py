@@ -56,8 +56,8 @@ def writeAssociationResults(results):
             support = result.support
             ordered_statistics = result.ordered_statistics
 
-            item_base = ordered_statistics[0].items_base
-            item_add = ordered_statistics[0].items_add
+            item_base = list(ordered_statistics[0].items_base)
+            item_add = list(ordered_statistics[0].items_add)
             confidence = ordered_statistics[0].confidence
             lift = ordered_statistics[0].lift
 
@@ -69,7 +69,7 @@ def main():
 
     records = generateRecords(df)
 
-    association_rules = apriori(records, min_support=0.0001, min_confidence=0.50, min_lift=2, min_length=2, max_length=2)
+    association_rules = apriori(records, min_support=0.001, min_confidence=0.50, min_lift=2, min_length=2, max_length=3)
 
     writeAssociationResults(list(association_rules))
 
