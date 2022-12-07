@@ -1,264 +1,93 @@
 item_base;item_add;support;confidence;lift
-['10.0'];['Simples'];0.005564302583553997;0.9810725552050473;2.0028529204295604
-['156.0'];['Simples'];0.001234523724325485;0.9857142857142859;2.012328981559751
-['251.0'];['Simples'];0.003649896228440564;0.9855072463768116;2.0119063121664387
-['424.0'];['Simples'];0.0013060903170400058;1.0;2.041493169698298
-['427.0'];['Simples'];0.0011987404279682244;0.9852941176470588;2.0114712113203814
-['467.0'];['Dupla'];0.001234523724325485;0.9324324324324325;2.2115643332702533
-['472.0'];['Simples'];0.0017891648178630214;0.9900990099009901;2.0212803660379186
-['50.0'];['Dupla'];0.009768839905532097;0.8452012383900929;2.0046674142202026
-['Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.05134903027266872;0.6220199393151279;4.9750913635090335
 ['Animais na Pista'];['Atropelamento de Animal'];0.015118442710942532;0.7745187901008249;48.969914271849895
-['Atropelamento de Animal'];['Noite'];0.010090889572747442;0.6380090497737557;2.0037987081341173
 ['Entrada inopinada do pedestre'];['Atropelamento de Pedestre'];0.008838474200243326;0.9536679536679535;20.31341816555231
 ['Pedestre andava na pista'];['Atropelamento de Pedestre'];0.010734988907178129;0.9661835748792269;20.580004713090606
 ['Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.009303657052887711;0.9558823529411764;20.360585545193686
 ['Área urbana sem a presença de local apropriado para a travessia de pedestres'];['Atropelamento de Pedestre'];0.00166392328061261;0.9207920792079208;19.613152016421154
-['Pista Escorregadia'];['Chuva'];0.012864095040435125;0.6669758812615956;6.390985077228373
-['Objeto estático sobre o leito carroçável'];['Colisão com objeto'];0.0031847133757961785;0.5615141955835963;7.513562705185148
-['Transitar na contramão'];['Colisão frontal'];0.018875688828454876;0.6784565916398714;10.128284139940089
 ['Condutor desrespeitou a iluminação vermelha do semáforo'];['Colisão transversal'];0.004383453803764403;0.914179104477612;7.311862980461174
-['Conversão proibida'];['Colisão transversal'];0.008087024976740857;0.587012987012987;4.695095860064377
 ['Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.022901309668646674;0.8683853459972863;6.945591551013212
-['Interseção de vias'];['Colisão transversal'];0.027928862806841766;0.5815946348733234;4.651758347501401
-['Retorno proibido'];['Colisão transversal'];0.002987905245831246;0.6733870967741935;5.385940413981571
 ['Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.06095684534459314;0.7559352118926115;3.9825366069471055
 ['Estacionar ou parar em local proibido'];['Colisão traseira'];0.0017712731696843914;0.7674418604651163;4.043157740137269
-['Condutor desrespeitou a iluminação vermelha do semáforo'];['Interseção de vias'];0.0028447720604022043;0.5932835820895522;12.35462219454145
 ['Curva acentuada'];['Curva'];0.004562370285550705;0.8854166666666667;5.067865676736645
-['Deficiência do Sistema de Iluminação/Sinalização'];['Noite'];0.004007729192013168;0.7724137931034483;2.4259244619093017
 ['Incêndio'];['Demais falhas mecânicas ou elétricas'];0.015637300508122808;0.8627838104639683;21.150312602829874
 ['Derramamento de carga'];['Sem Vítimas'];0.0017175982251485006;0.7384615384615385;4.107283541416291
 ['Incêndio'];['Sem Vítimas'];0.0174085736778072;0.9605133267522211;5.342323699754716
-['Colisão transversal', '10.0'];['Simples'];0.001162957131610964;0.9848484848484849;2.0105614550058997
-['10.0'];['Com Vítimas Feridas', 'Simples'];0.00415086237744221;0.7318611987381705;2.024407904576553
-['10.0'];['Simples', 'Céu Claro'];0.004043512488370428;0.7129337539432177;2.3223740165167457
-['Manhã', '10.0'];['Simples'];0.0018965147069348028;0.9814814814814814;2.0036877406298106
-['10.0'];['Simples', 'Reta'];0.004687611822801117;0.8264984227129338;2.591565208542569
-['Tarde', '10.0'];['Simples'];0.001985972947827954;0.9910714285714286;2.023265552111706
-['Acessar a via sem observar a presença dos outros veículos', '101.0'];['Colisão transversal'];0.008140699921276749;0.5694618272841052;4.5547167216032065
-['Animais na Pista', '101.0'];['Atropelamento de Animal'];0.001914406355113433;0.732876712328767;46.33704208764643
-['Animais na Pista', '101.0'];['Noite'];0.00166392328061261;0.636986301369863;2.000586556314025
-['Atropelamento de Animal', '101.0'];['Noite'];0.001413440206111787;0.7181818181818183;2.2555977849976503
+['101.0', 'Animais na Pista'];['Atropelamento de Animal'];0.001914406355113433;0.732876712328767;46.33704208764643
 ['Entrada inopinada do pedestre', '101.0'];['Atropelamento de Pedestre'];0.0017712731696843914;0.9428571428571428;20.083144599303136
 ['Pedestre andava na pista', '101.0'];['Atropelamento de Pedestre'];0.002021756244185214;0.9826086956521739;20.92986479321315
-['Pedestre cruzava a pista fora da faixa', '101.0'];['Atropelamento de Pedestre'];0.002683747226794532;0.9433962264150942;20.094627243442243
-['101.0', 'Pista Escorregadia'];['Chuva'];0.0022722393186860373;0.6978021978021978;6.686363867574222
-['101.0', 'Transitar na contramão'];['Colisão frontal'];0.0023616975595791884;0.6567164179104478;9.80373772164817
-['101.0', 'Manobra de mudança de faixa'];['Colisão lateral mesmo sentido'];0.007210334215987977;0.50186799501868;5.70826332470168
+['101.0', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.002683747226794532;0.9433962264150942;20.094627243442243
 ['Condutor desrespeitou a iluminação vermelha do semáforo', '101.0'];['Colisão transversal'];0.001145065483432334;0.9411764705882353;7.527795548671672
-['Conversão proibida', '101.0'];['Colisão transversal'];0.001145065483432334;0.6153846153846154;4.922020166439171
-['101.0', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.00413297072926358;0.8191489361702128;6.551784822613842
-['Interseção de vias', '101.0'];['Colisão transversal'];0.005278036212695914;0.5566037735849056;4.451874372239202
-['Condutor deixou de manter distância do veículo da frente', '101.0'];['Colisão traseira'];0.015440492378157877;0.7691622103386809;4.052221157531299
-['Incêndio', '101.0'];['Demais falhas mecânicas ou elétricas'];0.002415372504115079;0.8940397350993377;21.91652143604043
-['Múltipla', 'Desrespeitar a preferência no cruzamento'];['101.0'];0.0010734988907178129;0.625;3.4555841329508357
-['Incêndio', '101.0'];['Sem Vítimas'];0.0026300722822586416;0.9735099337748344;5.414610132206493
-['Interseção de vias', 'Múltipla'];['101.0'];0.0029342303012953553;0.5290322580645161;2.92498476285903
-['110.0'];['Simples', 'Céu Claro'];0.0030415801903671364;0.6538461538461539;2.1298967962914808
-['110.0'];['Simples', 'Reta'];0.003238388320332069;0.6961538461538462;2.182857266156004
-['Acessar a via sem observar a presença dos outros veículos', '116.0'];['Colisão transversal'];0.005671652472625778;0.5345699831365935;4.275641885728461
-['Animais na Pista', '116.0'];['Atropelamento de Animal'];0.0018428397623989122;0.7862595419847328;49.71223791924286
+['Desrespeitar a preferência no cruzamento', '101.0'];['Colisão transversal'];0.00413297072926358;0.8191489361702128;6.551784822613842
+['101.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.015440492378157877;0.7691622103386809;4.052221157531299
+['101.0', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.002415372504115079;0.8940397350993377;21.91652143604043
+['101.0', 'Incêndio'];['Sem Vítimas'];0.0026300722822586416;0.9735099337748344;5.414610132206493
+['116.0', 'Animais na Pista'];['Atropelamento de Animal'];0.0018428397623989122;0.7862595419847328;49.71223791924286
 ['Entrada inopinada do pedestre', '116.0'];['Atropelamento de Pedestre'];0.0017712731696843914;0.9428571428571428;20.083144599303136
-['Pedestre andava na pista', '116.0'];['Atropelamento de Pedestre'];0.0021291061332569957;0.9754098360655739;20.776526889244305
-['Pedestre cruzava a pista fora da faixa', '116.0'];['Atropelamento de Pedestre'];0.0012703070206827453;0.9594594594594593;20.43677900461437
-['116.0', 'Pista Escorregadia'];['Chuva'];0.0025227223931868605;0.6527777777777778;6.254938377431091
-['116.0', 'Transitar na contramão'];['Colisão frontal'];0.0017533815215057611;0.6853146853146853;10.230664634510788
+['116.0', 'Pedestre andava na pista'];['Atropelamento de Pedestre'];0.0021291061332569957;0.9754098360655739;20.776526889244305
+['116.0', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0012703070206827453;0.9594594594594593;20.43677900461437
 ['116.0', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.002558505689544121;0.9050632911392406;7.2389521276981155
-['Interseção de vias', '116.0'];['Colisão transversal'];0.0031310384312602875;0.575657894736842;4.604274621155062
-['Condutor deixou de manter distância do veículo da frente', '116.0'];['Colisão traseira'];0.009768839905532097;0.7146596858638743;3.765082398181135
-['116.0', 'Pista Escorregadia'];['Curva'];0.002236456022328777;0.5787037037037037;3.3123305076710094
-['Velocidade Incompatível', '116.0'];['Curva'];0.008766907607528806;0.5179704016913319;2.964710874688369
-['Incêndio', '116.0'];['Demais falhas mecânicas ou elétricas'];0.0031310384312602875;0.8663366336633663;21.237406635400383
-['Demais falhas mecânicas ou elétricas', '116.0'];['Sem Vítimas'];0.003828812710226866;0.5431472081218274;3.020955692740091
-['Incêndio', '116.0'];['Sem Vítimas'];0.0034709797466542618;0.9603960396039605;5.341671354915371
-['Acessar a via sem observar a presença dos outros veículos', '153.0'];['Colisão transversal'];0.0016997065769698704;0.6462585034013605;5.168958253020727
-['Interseção de vias', '153.0'];['Colisão transversal'];0.001001932298003292;0.5957446808510638;4.7649344164464305
-['Condutor deixou de manter distância do veículo da frente', '153.0'];['Colisão traseira'];0.0016102483360767193;0.7258064516129031;3.8238075401591463
-['158.0'];['Simples', 'Céu Claro'];0.005993702139841122;0.6192236598890942;2.0171143955310207
-['Acessar a via sem observar a presença dos outros veículos', '163.0'];['Colisão transversal'];0.0026300722822586416;0.7903225806451613;6.321223479882563
-['Condutor deixou de manter distância do veículo da frente', '163.0'];['Colisão traseira'];0.0014313318542904171;0.7339449541284403;3.8666840773067004
-['Colisão traseira', '222.0'];['Condutor deixou de manter distância do veículo da frente'];0.0010377155943605526;0.5043478260869566;6.254494940237892
-['226.0'];['Simples', 'Céu Claro'];0.0023438059114005583;0.6787564766839378;2.211041904348913
-['226.0'];['Simples', 'Reta'];0.0023438059114005583;0.6787564766839378;2.1283061427668244
-['Acessar a via sem observar a presença dos outros veículos', '230.0'];['Colisão transversal'];0.0013060903170400058;0.7156862745098039;5.724261198469084
-['230.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0011271738352537036;0.6847826086956522;3.6076792878892823
-['242.0', 'Curva'];['Simples'];0.0012881986688613755;1.0;2.041493169698298
-['Manhã', '242.0'];['Simples'];0.0016281399842553496;0.9891304347826086;2.0193030265494034
-['Reação tardia ou ineficiente do condutor', '242.0'];['Simples'];0.0010556072425391826;0.9833333333333333;2.0074682835366593
-['242.0'];['Simples', 'Reta'];0.003828812710226866;0.6772151898734177;2.1234732898964968
-['Saída de leito carroçável', '242.0'];['Simples'];0.0012703070206827453;1.0;2.041493169698298
-['242.0', 'Sem Vítimas'];['Simples'];0.0012166320761468547;1.0;2.041493169698298
-['242.0', 'domingo'];['Simples'];0.001001932298003292;1.0;2.041493169698298
-['251.0', 'Com Vítimas Feridas'];['Simples'];0.002594288985901381;0.9863945578231292;2.0137177524234913
-['251.0', 'Curva'];['Simples'];0.0011092821870750734;1.0;2.041493169698298
-['Manhã', '251.0'];['Simples'];0.001252415372504115;0.9859154929577465;2.01273974477297
-['Noite', '251.0'];['Simples'];0.0010913905388964431;0.9838709677419355;2.0085658605096155
-['251.0', 'Reta'];['Simples'];0.0022006727259715163;0.984;2.008829278983125
-['Tarde', '251.0'];['Simples'];0.0013060903170400058;0.9864864864864864;2.0139054241618344
-['259.0'];['Com Vítimas Feridas', 'Simples'];0.001252415372504115;0.7608695652173912;2.10464821038951
-['259.0'];['Simples', 'Reta'];0.0010734988907178129;0.6521739130434783;2.044953960607354
-['262.0', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0013597652615758963;0.672566371681416;5.379376022612722
-['262.0', 'Velocidade Incompatível'];['Curva'];0.002093322836899735;0.5342465753424657;3.0578709256570495
-['267.0'];['Com Vítimas Feridas', 'Simples'];0.003077363486724397;0.7381974248927039;2.04193459725344
-['Curva', '267.0'];['Simples'];0.0012703070206827453;0.986111111111111;2.0131390978969326
-['Acessar a via sem observar a presença dos outros veículos', '277.0'];['Colisão transversal'];0.001234523724325485;0.5433070866141733;4.345523709936945
+['116.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.009768839905532097;0.7146596858638743;3.765082398181135
+['116.0', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.0031310384312602875;0.8663366336633663;21.237406635400383
+['116.0', 'Incêndio'];['Sem Vítimas'];0.0034709797466542618;0.9603960396039605;5.341671354915371
+['153.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0016102483360767193;0.7258064516129031;3.8238075401591463
+['163.0', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0026300722822586416;0.7903225806451613;6.321223479882563
+['163.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0014313318542904171;0.7339449541284403;3.8666840773067004
+['222.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0010377155943605526;0.8656716417910448;4.560667301629285
+['230.0', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0013060903170400058;0.7156862745098039;5.724261198469084
 ['277.0', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0010556072425391826;0.8082191780821917;6.464365526813087
-['Condutor deixou de manter distância do veículo da frente', '277.0'];['Colisão traseira'];0.0017354898733271309;0.8220338983050848;4.330768087856329
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', '277.0'];['Noite'];0.0018428397623989122;0.6821192052980132;2.142335728394951
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', '277.0'];['Sem Vítimas'];0.001413440206111787;0.5231788079470199;2.9098925200293397
-['Acessar a via sem observar a presença dos outros veículos', '280.0'];['Colisão transversal'];0.0018965147069348028;0.8281249999999999;6.623577919290211
-['280.0'];['Com Vítimas Feridas', 'Simples'];0.009017390682029629;0.780185758513932;2.15807890799073
-['280.0', 'Curva'];['Simples'];0.0015565733915408287;0.9886363636363636;2.0182943836789993
-['Saída de leito carroçável', '280.0'];['Simples'];0.0013776569097545266;0.9871794871794871;2.0153201803431915
-['282.0', 'Chuva'];['Curva'];0.001234523724325485;0.518796992481203;2.969442038275412
-['282.0', 'Colisão frontal'];['Simples'];0.0015565733915408287;0.9886363636363636;2.0182943836789993
+['277.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0017354898733271309;0.8220338983050848;4.330768087856329
+['280.0', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0018965147069348028;0.8281249999999999;6.623577919290211
 ['282.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.001234523724325485;0.8214285714285714;4.327579009735669
-['282.0', 'Saída de leito carroçável'];['Curva'];0.002236456022328777;0.5458515283842794;3.124294277977895
-['282.0', 'Velocidade Incompatível'];['Curva'];0.0015386817433621985;0.593103448275862;3.394750428165333
-['282.0', 'Ingestão de álcool e/ou substâncias psicoativas pelo condutor'];['Noite'];0.0015565733915408287;0.6590909090909091;2.070010625472527
-['285.0', 'Curva'];['Simples'];0.001341873613397266;1.0;2.041493169698298
-['285.0', 'Reta'];['Simples'];0.0033994131539397407;0.9844559585492227;2.009760115247029
-['285.0', 'Saída de leito carroçável'];['Simples'];0.0016997065769698704;1.0;2.041493169698298
-['293.0'];['Simples', 'Céu Claro'];0.001234523724325485;0.6509433962264152;2.1204410946431285
-['293.0'];['Simples', 'Reta'];0.0014492235024690474;0.7641509433962265;2.3960686972399374
 ['316.0', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0017891648178630214;0.7462686567164178;5.968867739151978
-['316.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0011271738352537036;0.8289473684210527;4.367190716918604
-['Condutor deixou de manter distância do veículo da frente', '324.0'];['Colisão traseira'];0.001234523724325485;0.811764705882353;4.276666315503485
-['Condutor deixou de manter distância do veículo da frente', '324.0'];['Dupla'];0.001323981965218636;0.8705882352941178;2.0648808676876227
-['354.0'];['Com Vítimas Feridas', 'Simples'];0.001234523724325485;0.8023255813953489;2.2193200730153837
-['356.0'];['Com Vítimas Feridas', 'Simples'];0.0022543476705074073;0.7636363636363638;2.1123014766091086
-['Acessar a via sem observar a presença dos outros veículos', '364.0'];['Colisão transversal'];0.0015923566878980893;0.5393939393939394;4.314225251947061
+['Condutor deixou de manter distância do veículo da frente', '316.0'];['Colisão traseira'];0.0011271738352537036;0.8289473684210527;4.367190716918604
+['324.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.001234523724325485;0.811764705882353;4.276666315503485
 ['Desrespeitar a preferência no cruzamento', '364.0'];['Colisão transversal'];0.0010734988907178129;0.8823529411764705;7.057308326879691
-['Interseção de vias', '364.0'];['Colisão transversal'];0.0012703070206827453;0.6283185840707965;5.02546970533557
 ['Condutor deixou de manter distância do veículo da frente', '364.0'];['Colisão traseira'];0.0019680812996493236;0.7534246575342465;3.9693101101804227
-['367.0'];['Com Vítimas Feridas', 'Simples'];0.0011271738352537036;0.7974683544303798;2.205884453420904
-['376.0', 'Chuva'];['Dupla'];0.002576397337722751;0.8470588235294119;2.0090732766690382
 ['376.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0018428397623989122;0.7573529411764706;3.990005711022273
-['376.0', 'Manobra de mudança de faixa'];['Dupla'];0.0014671151506476777;0.8541666666666667;2.0259318197892355
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', '376.0'];['Noite'];0.0011987404279682244;0.6442307692307692;2.023339298373014
-['Capotamento', '381.0'];['Curva'];0.0011987404279682244;0.6090909090909091;3.4862579714192616
-['Chuva', '381.0'];['Curva'];0.0035067630430115223;0.5903614457831325;3.379056008982165
-['Manobra de mudança de faixa', '381.0'];['Colisão lateral mesmo sentido'];0.0010556072425391826;0.5315315315315314;6.045657378990711
-['Condutor deixou de manter distância do veículo da frente', '381.0'];['Colisão traseira'];0.002415372504115079;0.7417582417582418;3.907847266316491
-['Saída de leito carroçável', '381.0'];['Curva'];0.004061404136549059;0.5456730769230769;3.1232728740793254
-['Tombamento', '381.0'];['Curva'];0.002826880412223574;0.5543859649122808;3.1731428930749814
-['Velocidade Incompatível', '381.0'];['Curva'];0.005957918843483862;0.6330798479087454;3.623563631266318
+['381.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.002415372504115079;0.7417582417582418;3.907847266316491
 ['Acessar a via sem observar a presença dos outros veículos', '386.0'];['Colisão transversal'];0.001252415372504115;0.8045977011494252;6.43539993025811
-['393.0', 'Curva'];['Simples'];0.001574465039719459;0.9887640449438202;2.0185550441960696
-['Acessar a via sem observar a presença dos outros veículos', '40.0'];['Colisão transversal'];0.001824948114220282;0.5483870967741935;4.386155067673615
 ['Condutor deixou de manter distância do veículo da frente', '40.0'];['Colisão traseira'];0.002415372504115079;0.7105263157894737;3.743306328787375
-['Velocidade Incompatível', '40.0'];['Curva'];0.0029521219494739854;0.5392156862745098;3.0863126612652225
 ['Incêndio', '40.0'];['Demais falhas mecânicas ou elétricas'];0.001001932298003292;0.9333333333333333;22.879766081871345
 ['Incêndio', '40.0'];['Sem Vítimas'];0.0010377155943605526;0.9666666666666668;5.376548246923409
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', '40.0'];['Noite'];0.0013597652615758963;0.6551724137931034;2.057703784655211
-['407.0'];['Simples', 'Reta'];0.0028626637085808343;0.6666666666666666;2.090397381954184
-['423.0'];['Simples', 'Céu Claro'];0.0016102483360767193;0.6382978723404255;2.0792484369303565
-['423.0'];['Simples', 'Reta'];0.0017891648178630214;0.7092198581560283;2.223827002078919
-['428.0'];['Simples', 'Reta'];0.001914406355113433;0.7133333333333334;2.236725198690977
-['465.0'];['Simples', 'Céu Claro'];0.0010913905388964431;0.6224489795918368;2.027620839686848
-['465.0'];['Simples', 'Reta'];0.0015028984470049382;0.8571428571428572;2.687653776798237
-['Acessar a via sem observar a presença dos outros veículos', '470.0'];['Colisão transversal'];0.0016997065769698704;0.76;6.078694905552376
-['Desrespeitar a preferência no cruzamento', '470.0'];['Colisão transversal'];0.0013060903170400058;0.9733333333333334;7.784995229917954
-['Interseção de vias', '470.0'];['Colisão transversal'];0.001162957131610964;0.6989247311827956;5.590197635270294
-['Condutor deixou de manter distância do veículo da frente', '470.0'];['Colisão traseira'];0.0011808487797895942;0.8461538461538461;4.457840585279552
-['Velocidade Incompatível', '470.0'];['Curva'];0.001413440206111787;0.541095890410959;3.09707439906291
-['Desrespeitar a preferência no cruzamento', '470.0'];['Simples'];0.001323981965218636;0.9866666666666668;2.0142732607689875
-['Com Vítimas Feridas', '472.0'];['Simples'];0.0012703070206827453;0.986111111111111;2.0131390978969326
-['472.0'];['Simples', 'Céu Claro'];0.0011987404279682244;0.6633663366336634;2.1609086890738265
-['472.0'];['Simples', 'Reta'];0.0012881986688613755;0.712871287128713;2.2352764084262566
-['482.0'];['Com Vítimas Feridas', 'Simples'];0.0015923566878980893;0.8018018018018018;2.217871241527581
-['50.0', 'Colisão com objeto'];['Dupla'];0.0011092821870750734;0.9117647058823529;2.162544151970145
-['50.0'];['Com Vítimas Feridas', 'Dupla'];0.007818650254061404;0.6764705882352942;2.122567457342787
-['Condutor Dormindo', '50.0'];['Dupla'];0.0010377155943605526;0.9508196721311476;2.2551756042755824
-['50.0'];['Dupla', 'Céu Claro'];0.007049309382380305;0.6099071207430341;2.4245326310504742
-['50.0', 'Manhã'];['Dupla'];0.002737422171330423;0.8644067796610171;2.0502195514030794
-['Reação tardia ou ineficiente do condutor', '50.0'];['Dupla'];0.0027910971158663137;0.8524590163934426;2.0218815762470737
-['50.0'];['Dupla', 'Reta'];0.007120875975094826;0.6160990712074303;2.0217830723300665
-['50.0', 'Saída de leito carroçável'];['Dupla'];0.003077363486724397;0.9148936170212765;2.169965374180063
-['50.0', 'Velocidade Incompatível'];['Dupla'];0.001145065483432334;0.8648648648648649;2.0513060482506695
-['50.0', 'quarta-feira'];['Dupla'];0.001234523724325485;0.851851851851852;2.0204414896543055
-['50.0', 'quinta-feira'];['Dupla'];0.0013060903170400058;0.8690476190476191;2.061226799228072
-['sexta-feira', '50.0'];['Dupla'];0.0015565733915408287;0.87;2.063485677912158
-['50.0', 'terça-feira'];['Dupla'];0.0012881986688613755;0.8571428571428571;2.0329908156770027
-['Chuva', '60.0'];['Dupla'];0.001485006798826308;0.9222222222222223;2.187347525756183
-['60.0'];['Dupla', 'Céu Claro'];0.007872325198597294;0.5339805825242718;2.1227057409990473
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', '60.0'];['Dupla'];0.0012703070206827453;0.8765432098765432;2.0790050110935603
-['Saída de leito carroçável', '60.0'];['Dupla'];0.0038645960065841266;0.8470588235294118;2.0090732766690382
-['Sem Vítimas', '60.0'];['Dupla'];0.002737422171330423;0.8644067796610171;2.0502195514030794
-['terça-feira', '60.0'];['Dupla'];0.0016102483360767193;0.8653846153846153;2.0525388042892816
-['Acessar a via sem observar a presença dos outros veículos', 'Chuva'];['Colisão transversal'];0.002558505689544121;0.6217391304347827;4.972845374679576
-['Acessar a via sem observar a presença dos outros veículos', 'Com Vítimas Fatais'];['Colisão transversal'];0.002558505689544121;0.5789473684210527;4.630584761847378
-['Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal', 'Com Vítimas Feridas'];0.04408502111214485;0.5340268747290854;5.075298432640374
-['Acessar a via sem observar a presença dos outros veículos', 'Curva'];['Colisão transversal'];0.002826880412223574;0.5602836879432624;4.481307367848429
-['Acessar a via sem observar a presença dos outros veículos', 'Céu Claro'];['Colisão transversal'];0.03445931439204179;0.6230993206082174;4.983724560308312
-['Acessar a via sem observar a presença dos outros veículos', 'Garoa/Chuvisco'];['Colisão transversal'];0.0010913905388964431;0.5922330097087378;4.7368470776532305
-['Acessar a via sem observar a presença dos outros veículos', 'Interseção de vias'];['Colisão transversal'];0.009840406498246619;0.746268656716418;5.968867739151979
-['Acessar a via sem observar a presença dos outros veículos', 'Manhã'];['Colisão transversal'];0.01595935017533815;0.6088737201365187;4.869944185156025
-['Noite', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.011003363629857583;0.5790960451977402;4.631773920748725
-['Acessar a via sem observar a presença dos outros veículos', 'Nublado'];['Colisão transversal'];0.008426966292134831;0.6101036269430051;4.879781327575621
-['Acessar a via sem observar a presença dos outros veículos', 'Reta'];['Colisão transversal'];0.033367923853145354;0.5987158908507223;4.788698994194129
-['Retorno Regulamentado', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0018965147069348028;0.6162790697674418;4.929174265518297
-['Acessar a via sem observar a presença dos outros veículos', 'Rotatória'];['Colisão transversal'];0.002397480855936449;0.716577540106952;5.731389792738661
-['Acessar a via sem observar a presença dos outros veículos', 'Sem Vítimas'];['Colisão transversal'];0.004705503470979746;0.5548523206751055;4.4378657566074695
-['Acessar a via sem observar a presença dos outros veículos', 'Simples'];['Colisão transversal'];0.0371251699706577;0.7204861111111112;5.762651648858361
-['Sol', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.003989837543834538;0.663690476190476;5.308384100635101
-['Acessar a via sem observar a presença dos outros veículos', 'Tarde'];['Colisão transversal'];0.024386316467472982;0.6530905606133205;5.223602978505968
-['Acessar a via sem observar a presença dos outros veículos', 'domingo'];['Colisão transversal'];0.006154726973448794;0.5961871750433275;4.768473610120444
-['Acessar a via sem observar a presença dos outros veículos', 'quarta-feira'];['Colisão transversal'];0.006816717956058112;0.6195121951219512;4.955033716336018
-['quinta-feira', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0075323838832033205;0.6292974588938713;5.03329902296741
-['segunda-feira', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.006852501252415373;0.6050552922590837;4.8394033192536785
-['sexta-feira', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.009464681886495383;0.6596009975062344;5.275675293734753
-['Acessar a via sem observar a presença dos outros veículos', 'sábado'];['Colisão transversal'];0.007317684105059758;0.6059259259259259;4.8463668935105675
-['Acessar a via sem observar a presença dos outros veículos', 'terça-feira'];['Colisão transversal'];0.007210334215987977;0.6267496111975117;5.01292061663585
-['Acesso irregular', 'Manhã'];['Colisão transversal'];0.0013776569097545266;0.5032679738562091;4.025279564220269
-['Acesso irregular', 'Simples'];['Colisão transversal'];0.0025406140413654905;0.5144927536231884;4.115058526832748
-['Acostamento em desnível'];['Simples', 'Reta'];0.0021469977814356257;0.6486486486486487;2.033900155414882
-['Animais na Pista'];['Atropelamento de Animal', 'Com Vítimas Feridas'];0.01159378801975238;0.5939505041246562;48.96324716303139
+['470.0', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0016997065769698704;0.76;6.078694905552376
+['470.0', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0013060903170400058;0.9733333333333334;7.784995229917954
+['470.0', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0011808487797895942;0.8461538461538461;4.457840585279552
+['Interseção de vias', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.009840406498246619;0.746268656716418;5.968867739151979
+['Rotatória', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.002397480855936449;0.716577540106952;5.731389792738661
+['Simples', 'Acessar a via sem observar a presença dos outros veículos'];['Colisão transversal'];0.0371251699706577;0.7204861111111112;5.762651648858361
+['Atropelamento de Animal'];['Com Vítimas Feridas', 'Animais na Pista'];0.01159378801975238;0.7330316742081447;47.91883781852822
 ['Animais na Pista', 'Curva'];['Atropelamento de Animal'];0.0010556072425391826;0.7468354430379746;47.21960020619737
-['Animais na Pista'];['Atropelamento de Animal', 'Céu Claro'];0.010520289129034566;0.538955087076077;48.66442282206154
+['Animais na Pista', 'Céu Claro'];['Atropelamento de Animal'];0.010520289129034566;0.7726675427069645;48.85286685178468
 ['Animais na Pista', 'Dupla'];['Atropelamento de Animal'];0.004848636656408788;0.7445054945054945;47.07228631097409
-['Manhã', 'Animais na Pista'];['Atropelamento de Animal'];0.002308022615043298;0.6482412060301508;40.98585688624116
-['Atropelamento de Animal'];['Noite', 'Animais na Pista'];0.009589923423745796;0.6063348416289592;52.5414991756989
+['Manhã', 'Atropelamento de Animal'];['Animais na Pista'];0.002308022615043298;0.9772727272727273;50.06574452128989
+['Noite', 'Animais na Pista'];['Atropelamento de Animal'];0.009589923423745796;0.8310077519379845;52.5414991756989
 ['Animais na Pista', 'Nublado'];['Atropelamento de Animal'];0.002665855578615902;0.8232044198895028;52.04812379690508
-['Animais na Pista'];['Atropelamento de Animal', 'Reta'];0.013132469763114578;0.6727772685609532;49.154074633214115
-['Animais na Pista', 'Sem Vítimas'];['Atropelamento de Animal'];0.002755313819509053;0.8324324324324325;52.631576372752846
-['Animais na Pista'];['Atropelamento de Animal', 'Simples'];0.009768839905532097;0.5004582951420714;48.7310366412555
+['Atropelamento de Animal'];['Reta', 'Animais na Pista'];0.013132469763114578;0.8303167420814479;49.317814397891915
+['Sem Vítimas', 'Animais na Pista'];['Atropelamento de Animal'];0.002755313819509053;0.8324324324324325;52.631576372752846
+['Simples', 'Animais na Pista'];['Atropelamento de Animal'];0.009768839905532097;0.7959183673469387;50.32292917166866
 ['Animais na Pista', 'Tarde'];['Atropelamento de Animal'];0.0032204966721534386;0.728744939271255;46.075805594738675
 ['Animais na Pista', 'domingo'];['Atropelamento de Animal'];0.002665855578615902;0.7842105263157896;49.58268635389379
-['Animais na Pista', 'quarta-feira'];['Atropelamento de Animal'];0.0018607314105775425;0.7703703703703705;48.707625272331164
-['quinta-feira', 'Animais na Pista'];['Atropelamento de Animal'];0.0019680812996493236;0.8270676691729322;52.29238254006055
+['quarta-feira', 'Animais na Pista'];['Atropelamento de Animal'];0.0018607314105775425;0.7703703703703705;48.707625272331164
+['Animais na Pista', 'quinta-feira'];['Atropelamento de Animal'];0.0019680812996493236;0.8270676691729322;52.29238254006055
 ['segunda-feira', 'Animais na Pista'];['Atropelamento de Animal'];0.0018607314105775425;0.7819548872180451;49.440070765148164
-['sexta-feira', 'Animais na Pista'];['Atropelamento de Animal'];0.0024332641522937094;0.7771428571428572;49.13582417582418
+['Animais na Pista', 'sexta-feira'];['Atropelamento de Animal'];0.0024332641522937094;0.7771428571428572;49.13582417582418
 ['sábado', 'Animais na Pista'];['Atropelamento de Animal'];0.0022722393186860373;0.7470588235294118;47.23372371573063
 ['Animais na Pista', 'terça-feira'];['Atropelamento de Animal'];0.0020575395405424747;0.7419354838709677;46.90979419062911
-['Animais na Pista'];['Noite', 'Reta'];0.010090889572747442;0.5169569202566453;2.2754572520857157
-['Animais na Pista', 'Sem Vítimas'];['Noite'];0.0021827810777928862;0.6594594594594595;2.0711681337439938
-['Animais na Pista', 'domingo'];['Noite'];0.002164889429614256;0.636842105263158;2.0001336787687363
-['Atropelamento de Animal', 'Dupla'];['Noite'];0.003238388320332069;0.6418439716312057;2.0158430693645397
-['Atropelamento de Animal', 'Nublado'];['Noite'];0.001824948114220282;0.6623376623376623;2.0802077221497317
-['Atropelamento de Animal'];['Noite', 'Reta'];0.008856365848421957;0.5599547511312217;2.4647181406698886
-['Atropelamento de Animal', 'Sem Vítimas'];['Noite'];0.002003864596006584;0.7044025157232704;2.21232105016886
-['Atropelamento de Animal', 'Simples'];['Noite'];0.006548343233378659;0.637630662020906;2.002610303532956
-['Atropelamento de Animal', 'domingo'];['Noite'];0.0018070564660416517;0.6601307189542484;2.0732763623168604
-['segunda-feira', 'Atropelamento de Animal'];['Noite'];0.001323981965218636;0.6981132075471699;2.1925681836494952
-['sexta-feira', 'Atropelamento de Animal'];['Noite'];0.0016818149287912403;0.6482758620689656;2.0360437448167357
-['sábado', 'Atropelamento de Animal'];['Noite'];0.0016281399842553496;0.6791044776119403;2.1328673557364892
 ['Entrada inopinada do pedestre', 'Com Vítimas Fatais'];['Atropelamento de Pedestre'];0.0027910971158663137;0.9811320754716981;20.898412333179937
 ['Pedestre andava na pista', 'Com Vítimas Fatais'];['Atropelamento de Pedestre'];0.004759178415515638;0.9962546816479402;21.220528455284555
 ['Pedestre cruzava a pista fora da faixa', 'Com Vítimas Fatais'];['Atropelamento de Pedestre'];0.0024332641522937094;0.9714285714285715;20.691724738675962
-['Entrada inopinada do pedestre'];['Com Vítimas Feridas', 'Atropelamento de Pedestre'];0.00585056895441208;0.6312741312741312;19.569147945187876
-['Pedestre andava na pista'];['Com Vítimas Feridas', 'Atropelamento de Pedestre'];0.005868460602590711;0.5281803542673108;16.373298036998634
-['Pedestre cruzava a pista fora da faixa'];['Com Vítimas Feridas', 'Atropelamento de Pedestre'];0.006745151363343591;0.6930147058823529;21.4830715147956
+['Entrada inopinada do pedestre', 'Com Vítimas Feridas'];['Atropelamento de Pedestre'];0.00585056895441208;0.9450867052023121;20.13063495699986
+['Com Vítimas Feridas', 'Pedestre andava na pista'];['Atropelamento de Pedestre'];0.005868460602590711;0.956268221574344;20.368804664723033
+['Com Vítimas Feridas', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.006745151363343591;0.9496221662468514;20.227241660011057
 ['Área urbana sem a presença de local apropriado para a travessia de pedestres'];['Com Vítimas Feridas', 'Atropelamento de Pedestre'];0.0012703070206827453;0.7029702970297029;21.79168931868228
 ['Pedestre andava na pista', 'Curva'];['Atropelamento de Pedestre'];0.0012703070206827453;0.9594594594594593;20.43677900461437
-['Entrada inopinada do pedestre'];['Atropelamento de Pedestre', 'Céu Claro'];0.005940027195305232;0.6409266409266409;21.05977178993052
-['Pedestre andava na pista'];['Atropelamento de Pedestre', 'Céu Claro'];0.006852501252415373;0.6167471819645732;20.26527542290648
-['Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre', 'Céu Claro'];0.00585056895441208;0.6011029411764706;19.75123197427119
-['Área urbana sem a presença de local apropriado para a travessia de pedestres'];['Atropelamento de Pedestre', 'Céu Claro'];0.001234523724325485;0.6831683168316832;22.447762236541116
+['Entrada inopinada do pedestre', 'Céu Claro'];['Atropelamento de Pedestre'];0.005940027195305232;0.9567723342939481;20.3795424193435
+['Pedestre andava na pista', 'Céu Claro'];['Atropelamento de Pedestre'];0.006852501252415373;0.9575000000000001;20.39504192073171
+['Pedestre cruzava a pista fora da faixa', 'Céu Claro'];['Atropelamento de Pedestre'];0.00585056895441208;0.9478260869565217;20.188984623541888
+['Área urbana sem a presença de local apropriado para a travessia de pedestres', 'Céu Claro'];['Atropelamento de Pedestre'];0.001234523724325485;0.9324324324324325;19.86109508899143
 ['Entrada inopinada do pedestre', 'Dupla'];['Atropelamento de Pedestre'];0.004544478637372075;0.9584905660377357;20.41614127933732
 ['Pedestre andava na pista', 'Dupla'];['Atropelamento de Pedestre'];0.005206469619981393;0.9765100671140939;20.799962146014078
-['Dupla', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.004472912044657554;0.9328358208955223;19.869687386239534
+['Pedestre cruzava a pista fora da faixa', 'Dupla'];['Atropelamento de Pedestre'];0.004472912044657554;0.9328358208955223;19.869687386239534
 ['Entrada inopinada do pedestre', 'Manhã'];['Atropelamento de Pedestre'];0.002003864596006584;0.9411764705882353;20.047345767575322
 ['Entrada inopinada do pedestre', 'Múltipla'];['Atropelamento de Pedestre'];0.0012166320761468547;0.9577464788732395;20.400291995877705
 ['Entrada inopinada do pedestre', 'Noite'];['Atropelamento de Pedestre'];0.0035067630430115223;0.9702970297029704;20.667622554938422
@@ -273,12 +102,11 @@ item_base;item_add;support;confidence;lift
 ['Entrada inopinada do pedestre', 'sexta-feira'];['Atropelamento de Pedestre'];0.0015207900951835682;0.9239130434782609;19.679629506892894
 ['Entrada inopinada do pedestre', 'sábado'];['Atropelamento de Pedestre'];0.0014492235024690474;1.0;21.30030487804878
 ['Entrada inopinada do pedestre', 'terça-feira'];['Atropelamento de Pedestre'];0.0011092821870750734;0.9393939393939394;20.00937730968219
-['Ingestão de álcool e/ou substâncias psicoativas pelo pedestre', 'Atropelamento de Pedestre'];['Noite'];0.0020396478923638446;0.6477272727272727;2.034320787102311
 ['Pedestre andava na pista', 'Manhã'];['Atropelamento de Pedestre'];0.0014313318542904171;0.9195402298850575;19.586487244182788
-['Manhã', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.001914406355113433;0.9639639639639639;20.53272632388486
-['Pedestre andava na pista', 'Múltipla'];['Atropelamento de Pedestre'];0.001001932298003292;0.9824561403508771;20.926615318784766
+['Pedestre cruzava a pista fora da faixa', 'Manhã'];['Atropelamento de Pedestre'];0.001914406355113433;0.9639639639639639;20.53272632388486
+['Múltipla', 'Pedestre andava na pista'];['Atropelamento de Pedestre'];0.001001932298003292;0.9824561403508771;20.926615318784766
 ['Múltipla', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0015923566878980893;0.9673913043478262;20.605729718981973
-['Pedestre andava na pista'];['Noite', 'Atropelamento de Pedestre'];0.006297860158877836;0.5668276972624798;26.139549220622545
+['Pedestre andava na pista', 'Noite'];['Atropelamento de Pedestre'];0.006297860158877836;0.9777777777777779;20.8269647696477
 ['Noite', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.004007729192013168;0.9572649572649573;20.39003543881593
 ['Pedestre andava na pista', 'Nublado'];['Atropelamento de Pedestre'];0.002379589207757819;0.9779411764705883;20.830445211621235
 ['Pedestre cruzava a pista fora da faixa', 'Nublado'];['Atropelamento de Pedestre'];0.0018070564660416517;0.9528301886792453;20.29557351587667
@@ -287,270 +115,139 @@ item_base;item_add;support;confidence;lift
 ['Pedestre andava na pista', 'Tarde'];['Atropelamento de Pedestre'];0.0030057968940098764;0.9655172413793104;20.565811606391925
 ['Pedestre andava na pista', 'domingo'];['Atropelamento de Pedestre'];0.0015386817433621985;0.9772727272727272;20.816207039911305
 ['Pedestre andava na pista', 'quarta-feira'];['Atropelamento de Pedestre'];0.001413440206111787;0.9753086419753088;20.774371424269802
-['quinta-feira', 'Pedestre andava na pista'];['Atropelamento de Pedestre'];0.0015386817433621985;0.9555555555555556;20.353624661246613
-['segunda-feira', 'Pedestre andava na pista'];['Atropelamento de Pedestre'];0.0013060903170400058;0.9733333333333334;20.73229674796748
-['sexta-feira', 'Pedestre andava na pista'];['Atropelamento de Pedestre'];0.0017533815215057611;0.9423076923076923;20.071441135084427
+['Pedestre andava na pista', 'quinta-feira'];['Atropelamento de Pedestre'];0.0015386817433621985;0.9555555555555556;20.353624661246613
+['Pedestre andava na pista', 'segunda-feira'];['Atropelamento de Pedestre'];0.0013060903170400058;0.9733333333333334;20.73229674796748
+['Pedestre andava na pista', 'sexta-feira'];['Atropelamento de Pedestre'];0.0017533815215057611;0.9423076923076923;20.071441135084427
 ['Pedestre andava na pista', 'sábado'];['Atropelamento de Pedestre'];0.001914406355113433;0.9727272727272728;20.719387472283813
 ['Pedestre andava na pista', 'terça-feira'];['Atropelamento de Pedestre'];0.0012703070206827453;0.9726027397260273;20.716734881389907
 ['Pedestre cruzava a pista fora da faixa'];['Reta', 'Atropelamento de Pedestre'];0.00747870893866743;0.7683823529411764;19.727343348915127
 ['Simples', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.003238388320332069;0.9836956521739131;20.953017298515377
-['Tarde', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0033815215057611107;0.949748743718593;20.229937798749848
-['domingo', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0014313318542904171;0.975609756097561;20.78078524687686
+['Pedestre cruzava a pista fora da faixa', 'Tarde'];['Atropelamento de Pedestre'];0.0033815215057611107;0.949748743718593;20.229937798749848
+['Pedestre cruzava a pista fora da faixa', 'domingo'];['Atropelamento de Pedestre'];0.0014313318542904171;0.975609756097561;20.78078524687686
 ['quarta-feira', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0013776569097545266;0.927710843373494;19.76052380252718
-['quinta-feira', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0011092821870750734;0.9538461538461539;20.3172138836773
+['Pedestre cruzava a pista fora da faixa', 'quinta-feira'];['Atropelamento de Pedestre'];0.0011092821870750734;0.9538461538461539;20.3172138836773
 ['segunda-feira', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0011092821870750734;0.9393939393939394;20.00937730968219
-['sexta-feira', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0017175982251485006;0.9320388349514562;19.852711342647407
+['Pedestre cruzava a pista fora da faixa', 'sexta-feira'];['Atropelamento de Pedestre'];0.0017175982251485006;0.9320388349514562;19.852711342647407
 ['sábado', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0014671151506476777;0.9761904761904762;20.793154761904763
-['terça-feira', 'Pedestre cruzava a pista fora da faixa'];['Atropelamento de Pedestre'];0.0010913905388964431;1.0;21.30030487804878
+['Pedestre cruzava a pista fora da faixa', 'terça-feira'];['Atropelamento de Pedestre'];0.0010913905388964431;1.0;21.30030487804878
 ['Área urbana sem a presença de local apropriado para a travessia de pedestres'];['Reta', 'Atropelamento de Pedestre'];0.0014492235024690474;0.801980198019802;20.589929824401825
-['Chuva', 'Capotamento'];['Curva'];0.0032741716166893296;0.5446428571428571;3.1173761977909438
-['Capotamento', 'Pista Escorregadia'];['Chuva'];0.001252415372504115;0.7608695652173912;7.290677479706914
-['Velocidade Incompatível', 'Capotamento'];['Curva'];0.003900379302941387;0.5141509433962265;2.942849414060613
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Capotamento'];['Noite'];0.0015923566878980893;0.6846153846153847;2.150175493196397
-['Colisão com objeto', 'Pista Escorregadia'];['Chuva'];0.0022722393186860373;0.7383720930232558;7.075105952898305
-['Chuva', 'Transitar na contramão'];['Colisão frontal'];0.001413440206111787;0.6638655462184874;9.910462903109961
-['Interseção de vias', 'Chuva'];['Colisão transversal'];0.0014671151506476777;0.5290322580645161;4.2313495946968995
-['Condutor deixou de manter distância do veículo da frente', 'Chuva'];['Colisão traseira'];0.004079295784727689;0.7261146496815287;3.825431237628429
-['Pista Escorregadia'];['Com Vítimas Feridas', 'Chuva'];0.009911973090961139;0.5139146567717996;6.712717456482689
-['Curva', 'Pista Escorregadia'];['Chuva'];0.005152794675445502;0.6288209606986899;6.025383359398452
-['Velocidade Incompatível', 'Chuva'];['Curva'];0.00989408144278251;0.5920770877944326;3.3888758413729057
-['Dupla', 'Pista Escorregadia'];['Chuva'];0.0066914764188077;0.6900369003690037;6.611956529302992
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Chuva'];['Noite'];0.003936162599298647;0.668693009118541;2.1001679964966002
-['Manhã', 'Pista Escorregadia'];['Chuva'];0.003739354469333715;0.5988538681948424;5.738237682349757
-['Noite', 'Pista Escorregadia'];['Chuva'];0.0031310384312602875;0.6730769230769231;6.449445462817656
+['Pista Escorregadia', 'Capotamento'];['Chuva'];0.001252415372504115;0.7608695652173912;7.290677479706914
+['Pista Escorregadia', 'Colisão com objeto'];['Chuva'];0.0022722393186860373;0.7383720930232558;7.075105952898305
+['Chuva', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.004079295784727689;0.7261146496815287;3.825431237628429
 ['Reta', 'Pista Escorregadia'];['Chuva'];0.006816717956058112;0.7229601518026565;6.9274282195361
-['Saída de leito carroçável', 'Pista Escorregadia'];['Chuva'];0.005653760824447148;0.7452830188679246;7.141326674192704
-['Sem Vítimas', 'Pista Escorregadia'];['Chuva'];0.002290130966864668;0.7485380116959065;7.172516123728374
-['Simples', 'Pista Escorregadia'];['Chuva'];0.005439061046303585;0.6565874730021598;6.291443003777938
-['Tarde', 'Pista Escorregadia'];['Chuva'];0.005993702139841122;0.7142857142857144;6.844309470745268
-['domingo', 'Pista Escorregadia'];['Chuva'];0.002093322836899735;0.6964285714285714;6.673201733976635
-['quarta-feira', 'Pista Escorregadia'];['Chuva'];0.0015207900951835682;0.6249999999999999;5.988770786902108
-['quinta-feira', 'Pista Escorregadia'];['Chuva'];0.001413440206111787;0.6583333333333334;6.308171895536889
-['segunda-feira', 'Pista Escorregadia'];['Chuva'];0.0018607314105775425;0.6709677419354839;6.429235218971038
-['sexta-feira', 'Pista Escorregadia'];['Chuva'];0.002021756244185214;0.6420454545454545;6.152100899272165
-['sábado', 'Pista Escorregadia'];['Chuva'];0.0022006727259715163;0.6542553191489361;6.269096227991143
-['terça-feira', 'Pista Escorregadia'];['Chuva'];0.0017533815215057611;0.725925925925926;6.955846365824079
-['Objeto estático sobre o leito carroçável', 'Com Vítimas Feridas'];['Colisão com objeto'];0.002290130966864668;0.5140562248995983;6.878532564541143
-['Colisão com objeto', 'Pista Escorregadia'];['Curva'];0.0016102483360767193;0.5232558139534883;2.994963026470903
-['Objeto estático sobre o leito carroçável', 'Céu Claro'];['Colisão com objeto'];0.0018428397623989122;0.553763440860215;7.409850667119736
-['Objeto estático sobre o leito carroçável', 'Dupla'];['Colisão com objeto'];0.0015386817433621985;0.5477707006369427;7.329662437155854
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Colisão com objeto'];['Noite'];0.006244185214341945;0.6685823754789272;2.099820528785581
-['Noite', 'Objeto estático sobre o leito carroçável'];['Colisão com objeto'];0.001574465039719459;0.6470588235294118;8.658226422002846
-['Objeto estático sobre o leito carroçável', 'Reta'];['Colisão com objeto'];0.002647963930437272;0.5670498084291188;7.587634161532274
-['Objeto estático sobre o leito carroçável', 'Simples'];['Colisão com objeto'];0.0011808487797895942;0.55;7.359492458702419
-['Com Vítimas Fatais', 'Manobra de mudança de faixa'];['Colisão frontal'];0.0022185643741501468;0.656084656084656;9.794306516528739
-['Com Vítimas Fatais', 'Transitar na contramão'];['Colisão frontal'];0.006745151363343591;0.868663594470046;12.967773937532002
+['Pista Escorregadia', 'Saída de leito carroçável'];['Chuva'];0.005653760824447148;0.7452830188679246;7.141326674192704
+['Pista Escorregadia', 'Sem Vítimas'];['Chuva'];0.002290130966864668;0.7485380116959065;7.172516123728374
+['Pista Escorregadia', 'Tarde'];['Chuva'];0.005993702139841122;0.7142857142857144;6.844309470745268
+['Pista Escorregadia', 'terça-feira'];['Chuva'];0.0017533815215057611;0.725925925925926;6.955846365824079
+['Transitar na contramão', 'Com Vítimas Fatais'];['Colisão frontal'];0.006745151363343591;0.868663594470046;12.967773937532002
 ['Ultrapassagem Indevida', 'Com Vítimas Fatais'];['Colisão frontal'];0.0031131467830816575;0.7733333333333333;11.544643874643874
-['Com Vítimas Feridas', 'Transitar na contramão'];['Colisão frontal'];0.010985471981678952;0.6323377960865086;9.439803445210242
-['Curva', 'Transitar na contramão'];['Colisão frontal'];0.0037572461175123455;0.6752411575562701;10.080282793305303
-['Velocidade Incompatível', 'Colisão frontal'];['Curva'];0.002415372504115079;0.6053811659192825;3.4650244880246324
-['Céu Claro', 'Transitar na contramão'];['Colisão frontal'];0.011951620983324984;0.6809378185524975;10.165324934438084
-['Dupla', 'Transitar na contramão'];['Colisão frontal'];0.002594288985901381;0.614406779661017;9.17212172243952
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Colisão frontal'];['Noite'];0.0044371287483002935;0.6869806094182825;2.1576039683977664
-['Manhã', 'Transitar na contramão'];['Colisão frontal'];0.003739354469333715;0.6656050955414012;9.936431623931623
 ['Noite', 'Transitar na contramão'];['Colisão frontal'];0.009267873756530452;0.7009472259810555;10.464033748539839
-['Transitar na contramão', 'Nublado'];['Colisão frontal'];0.003649896228440564;0.6891891891891891;10.28850485100485
-['Reta', 'Transitar na contramão'];['Colisão frontal'];0.013436627782151291;0.6877289377289377;10.266705605647914
-['Transitar na contramão'];['Simples', 'Colisão frontal'];0.015494167322693767;0.5569131832797428;9.369955340117816
-['Tarde', 'Transitar na contramão'];['Colisão frontal'];0.005868460602590711;0.6533864541832669;9.75402662852862
 ['domingo', 'Transitar na contramão'];['Colisão frontal'];0.004079295784727689;0.7080745341614907;10.570433189998408
-['quarta-feira', 'Transitar na contramão'];['Colisão frontal'];0.0020396478923638446;0.6589595375722543;9.837223951385802
-['quinta-feira', 'Transitar na contramão'];['Colisão frontal'];0.001985972947827954;0.6646706586826348;9.922481959158606
-['segunda-feira', 'Transitar na contramão'];['Colisão frontal'];0.002075431188721105;0.6628571428571429;9.895409035409036
-['sexta-feira', 'Transitar na contramão'];['Colisão frontal'];0.002683747226794532;0.6578947368421052;9.821328160143949
-['sábado', 'Transitar na contramão'];['Colisão frontal'];0.003971945895655908;0.6851851851851852;10.228731402342515
-['terça-feira', 'Transitar na contramão'];['Colisão frontal'];0.0020396478923638446;0.6867469879518072;10.252046648130985
-['Dupla', 'Manobra de mudança de faixa'];['Colisão lateral mesmo sentido'];0.01688971588062692;0.5166940339354131;5.876895186145322
-['Colisão lateral mesmo sentido', 'Ingestão de álcool e/ou substâncias psicoativas pelo condutor'];['Sem Vítimas'];0.002737422171330423;0.5563636363636364;3.0944647590443193
-['Trafegar com motocicleta (ou similar) entre as faixas', 'Manhã'];['Colisão lateral mesmo sentido'];0.0028626637085808343;0.5015673981191222;5.70484432553398
-['Múltipla', 'Manobra de mudança de faixa'];['Colisão lateral mesmo sentido'];0.005743219065340299;0.5641476274165202;6.4166339421172465
-['Trafegar com motocicleta (ou similar) entre as faixas', 'Múltipla'];['Colisão lateral mesmo sentido'];0.002075431188721105;0.5155555555555555;5.863946095057206
-['Trafegar com motocicleta (ou similar) entre as faixas', 'quarta-feira'];['Colisão lateral mesmo sentido'];0.001323981965218636;0.5362318840579711;6.099119345496157
-['segunda-feira', 'Trafegar com motocicleta (ou similar) entre as faixas'];['Colisão lateral mesmo sentido'];0.0012166320761468547;0.5396825396825397;6.138367217732297
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Colisão lateral sentido oposto'];['Noite'];0.0022006727259715163;0.6507936507936507;2.0439513784085594
 ['Condutor desrespeitou a iluminação vermelha do semáforo'];['Colisão transversal', 'Com Vítimas Feridas'];0.0037930294138696055;0.7910447761194029;7.517951815484725
-['Conversão proibida'];['Colisão transversal', 'Com Vítimas Feridas'];0.006959851141487154;0.5051948051948052;4.801283464027895
 ['Desrespeitar a preferência no cruzamento'];['Colisão transversal', 'Com Vítimas Feridas'];0.01984183783010091;0.7523744911804614;7.15043616069688
-['Interseção de vias', 'Com Vítimas Feridas'];['Colisão transversal'];0.023634867243970514;0.6138475836431226;4.909726551943534
-['Retorno proibido'];['Colisão transversal', 'Com Vítimas Feridas'];0.0026300722822586416;0.592741935483871;5.633316146584683
-['Condutor desrespeitou a iluminação vermelha do semáforo'];['Colisão transversal', 'Céu Claro'];0.0029342303012953553;0.6119402985074627;7.432109335979814
+['Condutor desrespeitou a iluminação vermelha do semáforo', 'Céu Claro'];['Colisão transversal'];0.0029342303012953553;0.9318181818181818;7.452945308841129
 ['Condutor desrespeitou a iluminação vermelha do semáforo', 'Dupla'];['Colisão transversal'];0.0020396478923638446;0.8906249999999999;7.123470592444189
-['Condutor desrespeitou a iluminação vermelha do semáforo'];['Interseção de vias', 'Colisão transversal'];0.002665855578615902;0.5559701492537313;19.906651878340522
-['Manhã', 'Condutor desrespeitou a iluminação vermelha do semáforo'];['Colisão transversal'];0.0010913905388964431;0.8840579710144927;7.070945637656271
-['Múltipla', 'Condutor desrespeitou a iluminação vermelha do semáforo'];['Colisão transversal'];0.0011808487797895942;0.9428571428571428;7.541238040722871
-['Noite', 'Condutor desrespeitou a iluminação vermelha do semáforo'];['Colisão transversal'];0.0016997065769698704;0.9223300970873786;7.377056924214047
-['Condutor desrespeitou a iluminação vermelha do semáforo', 'Reta'];['Colisão transversal'];0.0013776569097545266;0.875;6.998497424155695
+['Condutor desrespeitou a iluminação vermelha do semáforo', 'Interseção de vias'];['Colisão transversal'];0.002665855578615902;0.9371069182389937;7.495246118233234
+['Condutor desrespeitou a iluminação vermelha do semáforo', 'Manhã'];['Colisão transversal'];0.0010913905388964431;0.8840579710144927;7.070945637656271
+['Condutor desrespeitou a iluminação vermelha do semáforo', 'Múltipla'];['Colisão transversal'];0.0011808487797895942;0.9428571428571428;7.541238040722871
+['Condutor desrespeitou a iluminação vermelha do semáforo', 'Noite'];['Colisão transversal'];0.0016997065769698704;0.9223300970873786;7.377056924214047
+['Reta', 'Condutor desrespeitou a iluminação vermelha do semáforo'];['Colisão transversal'];0.0013776569097545266;0.875;6.998497424155695
 ['Condutor desrespeitou a iluminação vermelha do semáforo', 'Simples'];['Colisão transversal'];0.001162957131610964;0.9285714285714286;7.426976858287677
-['Tarde', 'Condutor desrespeitou a iluminação vermelha do semáforo'];['Colisão transversal'];0.0015923566878980893;0.9270833333333334;7.4150746517840105
-['Curva', 'Conversão proibida'];['Colisão transversal'];0.001162957131610964;0.7471264367816092;5.975728506668245
-['Céu Claro', 'Conversão proibida'];['Colisão transversal'];0.005456952694482216;0.5933852140077821;4.746062733446331
-['Dupla', 'Conversão proibida'];['Colisão transversal'];0.001323981965218636;0.556390977443609;4.450172368528648
-['Manhã', 'Conversão proibida'];['Colisão transversal'];0.0027016388749731626;0.594488188976378;4.754884639133904
-['Noite', 'Conversão proibida'];['Colisão transversal'];0.0017891648178630214;0.5617977528089887;4.493417286777332
-['Conversão proibida', 'Nublado'];['Colisão transversal'];0.0014313318542904171;0.5970149253731343;4.775094191321583
-['Reta', 'Conversão proibida'];['Colisão transversal'];0.005922135547126601;0.5658119658119658;4.525524097476015
-['Simples', 'Conversão proibida'];['Colisão transversal'];0.006440993344306877;0.5891980360065466;4.712572499782184
-['Tarde', 'Conversão proibida'];['Colisão transversal'];0.0035962212839046733;0.5946745562130178;4.756375256991698
-['domingo', 'Conversão proibida'];['Colisão transversal'];0.001001932298003292;0.5544554455445545;4.434691437088758
-['quarta-feira', 'Conversão proibida'];['Colisão transversal'];0.001162957131610964;0.6249999999999999;4.998926731539782
-['quinta-feira', 'Conversão proibida'];['Colisão transversal'];0.001145065483432334;0.6400000000000001;5.118900973096738
-['segunda-feira', 'Conversão proibida'];['Colisão transversal'];0.0013597652615758963;0.6129032258064516;4.902173310929335
-['sexta-feira', 'Conversão proibida'];['Colisão transversal'];0.001341873613397266;0.5319148936170213;4.254405728970028
-['sábado', 'Conversão proibida'];['Colisão transversal'];0.0011271738352537036;0.5384615384615385;4.306767645634275
-['Desrespeitar a preferência no cruzamento'];['Colisão transversal', 'Céu Claro'];0.01497530952551349;0.567842605156038;6.896536046801668
-['Interseção de vias', 'Céu Claro'];['Colisão transversal'];0.01823158949402419;0.5955581531268265;4.763442514963449
-['Retorno proibido', 'Céu Claro'];['Colisão transversal'];0.002021756244185214;0.6608187134502923;5.28541493018943
-['Dupla', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.004472912044657554;0.8116883116883117;6.492112638363354
-['Interseção de vias', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.009607815071924425;0.8861386138613861;7.087587207490068
-['Manhã', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.00747870893866743;0.8708333333333333;6.96517124594543
+['Condutor desrespeitou a iluminação vermelha do semáforo', 'Tarde'];['Colisão transversal'];0.0015923566878980893;0.9270833333333334;7.4150746517840105
+['Conversão proibida', 'Curva'];['Colisão transversal'];0.001162957131610964;0.7471264367816092;5.975728506668245
+['Desrespeitar a preferência no cruzamento', 'Céu Claro'];['Colisão transversal'];0.01497530952551349;0.8611111111111112;6.8874101634548115
+['Desrespeitar a preferência no cruzamento', 'Dupla'];['Colisão transversal'];0.004472912044657554;0.8116883116883117;6.492112638363354
+['Desrespeitar a preferência no cruzamento', 'Interseção de vias'];['Colisão transversal'];0.009607815071924425;0.8861386138613861;7.087587207490068
+['Desrespeitar a preferência no cruzamento', 'Manhã'];['Colisão transversal'];0.00747870893866743;0.8708333333333333;6.96517124594543
 ['Múltipla', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0014492235024690474;0.84375;6.748551087578706
-['Noite', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.004419237100121663;0.8316498316498316;6.651770519543845
-['Nublado', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0038645960065841266;0.8537549407114625;6.828573432490707
+['Desrespeitar a preferência no cruzamento', 'Noite'];['Colisão transversal'];0.004419237100121663;0.8316498316498316;6.651770519543845
+['Desrespeitar a preferência no cruzamento', 'Nublado'];['Colisão transversal'];0.0038645960065841266;0.8537549407114625;6.828573432490707
 ['Reta', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.006995634437844414;0.8319148936170212;6.653890560109122
-['Retorno Regulamentado', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.001234523724325485;0.8734177215189873;6.985841913442936
-['Colisão transversal', 'Rotatória'];['Desrespeitar a preferência no cruzamento'];0.0037930294138696055;0.5170731707317073;19.6066849786544
-['Sem Vítimas', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.002415372504115079;0.9121621621621621;7.295730905490492
-['Desrespeitar a preferência no cruzamento'];['Colisão transversal', 'Simples'];0.016979174121520075;0.6438263229308006;7.444092023427452
+['Desrespeitar a preferência no cruzamento', 'Retorno Regulamentado'];['Colisão transversal'];0.001234523724325485;0.8734177215189873;6.985841913442936
+['Desrespeitar a preferência no cruzamento', 'Rotatória'];['Colisão transversal'];0.0037930294138696055;0.902127659574468;7.215472116333166
+['Desrespeitar a preferência no cruzamento', 'Sem Vítimas'];['Colisão transversal'];0.002415372504115079;0.9121621621621621;7.295730905490492
+['Desrespeitar a preferência no cruzamento', 'Simples'];['Colisão transversal'];0.016979174121520075;0.8869158878504673;7.093804064644865
 ['Sol', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0022722393186860373;0.9407407407407408;7.52431045813988
-['Tarde', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.011003363629857583;0.8823529411764707;7.057308326879693
-['domingo', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.002755313819509053;0.9166666666666666;7.331759206258347
-['quarta-feira', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0032026050239748085;0.8325581395348837;6.659035422851133
-['quinta-feira', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0035067630430115223;0.8558951965065501;6.845691803540941
-['segunda-feira', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0031310384312602875;0.8706467661691542;6.963679029010642
-['sexta-feira', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0037035711729764545;0.8846153846153846;7.075403989256307
-['sábado', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.003488871394832892;0.8904109589041095;7.121758631234758
-['terça-feira', 'Desrespeitar a preferência no cruzamento'];['Colisão transversal'];0.0031131467830816575;0.8365384615384615;6.690871163753246
-['Interseção de vias', 'Manhã'];['Colisão transversal'];0.008605882773921134;0.5960346964064437;4.767254042866192
-['Noite', 'Interseção de vias'];['Colisão transversal'];0.006745151363343591;0.5033377837116154;4.025837923183974
-['Interseção de vias', 'Nublado'];['Colisão transversal'];0.004687611822801117;0.546972860125261;4.3748436030511
-['Interseção de vias', 'Simples'];['Colisão transversal'];0.018947255421169398;0.6492949110974863;5.193244300380753
-['Sol', 'Interseção de vias'];['Colisão transversal'];0.002415372504115079;0.6308411214953271;5.045645672956042
-['Interseção de vias', 'Tarde'];['Colisão transversal'];0.01257782866957704;0.6232269503546098;4.9847453791098815
-['Interseção de vias', 'domingo'];['Colisão transversal'];0.0035246546911901523;0.5338753387533876;4.270085923526665
-['Interseção de vias', 'quarta-feira'];['Colisão transversal'];0.0033099549130465897;0.5929487179487178;4.742571514537741
-['quinta-feira', 'Interseção de vias'];['Colisão transversal'];0.004061404136549059;0.5958005249343832;4.765381073215877
-['segunda-feira', 'Interseção de vias'];['Colisão transversal'];0.004115079081084949;0.5989583333333334;4.790638117725625
-['sexta-feira', 'Interseção de vias'];['Colisão transversal'];0.004455020396478924;0.6073170731707318;4.857493682549877
-['Interseção de vias', 'sábado'];['Colisão transversal'];0.004598153581907965;0.5515021459227468;4.4110701116076365
-['Interseção de vias', 'terça-feira'];['Colisão transversal'];0.0038645960065841266;0.5966850828729282;4.772456017735218
-['Retorno proibido'];['Colisão transversal', 'Reta'];0.0023616975595791884;0.532258064516129;7.197911382031329
-['Retorno Regulamentado', 'Simples'];['Colisão transversal'];0.0017891648178630214;0.5154639175257731;4.122826170342088
+['Desrespeitar a preferência no cruzamento', 'Tarde'];['Colisão transversal'];0.011003363629857583;0.8823529411764707;7.057308326879693
+['Desrespeitar a preferência no cruzamento', 'domingo'];['Colisão transversal'];0.002755313819509053;0.9166666666666666;7.331759206258347
+['Desrespeitar a preferência no cruzamento', 'quarta-feira'];['Colisão transversal'];0.0032026050239748085;0.8325581395348837;6.659035422851133
+['Desrespeitar a preferência no cruzamento', 'quinta-feira'];['Colisão transversal'];0.0035067630430115223;0.8558951965065501;6.845691803540941
+['Desrespeitar a preferência no cruzamento', 'segunda-feira'];['Colisão transversal'];0.0031310384312602875;0.8706467661691542;6.963679029010642
+['Desrespeitar a preferência no cruzamento', 'sexta-feira'];['Colisão transversal'];0.0037035711729764545;0.8846153846153846;7.075403989256307
+['Desrespeitar a preferência no cruzamento', 'sábado'];['Colisão transversal'];0.003488871394832892;0.8904109589041095;7.121758631234758
+['Desrespeitar a preferência no cruzamento', 'terça-feira'];['Colisão transversal'];0.0031131467830816575;0.8365384615384615;6.690871163753246
 ['Retorno proibido', 'Simples'];['Colisão transversal'];0.002164889429614256;0.7245508982035929;5.79516296542576
 ['Retorno proibido', 'Tarde'];['Colisão transversal'];0.00166392328061261;0.7265625;5.811252325414997
 ['Condutor deixou de manter distância do veículo da frente', 'Com Vítimas Fatais'];['Colisão traseira'];0.0010913905388964431;0.7261904761904762;3.8258307187518232
-['Condutor deixou de manter distância do veículo da frente'];['Colisão traseira', 'Com Vítimas Feridas'];0.04787805052601446;0.593743066341247;4.065354338349255
-['Estacionar ou parar em local proibido'];['Colisão traseira', 'Com Vítimas Feridas'];0.001341873613397266;0.5813953488372092;3.980809608870427
+['Com Vítimas Feridas', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.04787805052601446;0.7527426160337554;3.965716872029282
+['Com Vítimas Feridas', 'Estacionar ou parar em local proibido'];['Colisão traseira'];0.001341873613397266;0.7653061224489796;4.031905909691617
 ['Condutor deixou de manter distância do veículo da frente', 'Curva'];['Colisão traseira'];0.002898447004938095;0.7168141592920354;3.7764329334669093
 ['Condutor deixou de manter distância do veículo da frente', 'Céu Claro'];['Colisão traseira'];0.03968367566020182;0.7611530542210021;4.010026063391484
-['Condutor deixou de manter distância do veículo da frente', 'Desvio Temporário'];['Colisão traseira'];0.0015386817433621985;0.7543859649122806;3.97437462068783
+['Desvio Temporário', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0015386817433621985;0.7543859649122806;3.97437462068783
 ['Condutor deixou de manter distância do veículo da frente', 'Dupla'];['Colisão traseira'];0.03165032562799685;0.7585763293310464;3.99645095663784
-['Condutor deixou de manter distância do veículo da frente', 'Garoa/Chuvisco'];['Colisão traseira'];0.0013776569097545266;0.7403846153846153;3.900610512119608
+['Garoa/Chuvisco', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0013776569097545266;0.7403846153846153;3.900610512119608
 ['Interseção de vias', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.001574465039719459;0.8073394495412844;4.253352485037371
-['Manhã', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.022847634724110784;0.744606413994169;3.9228524546104344
+['Condutor deixou de manter distância do veículo da frente', 'Manhã'];['Colisão traseira'];0.022847634724110784;0.744606413994169;3.9228524546104344
 ['Múltipla', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.008587991125742503;0.7570977917981072;3.988661492994609
 ['Noite', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.012309453946897588;0.8018648018648018;4.224510086325526
 ['Condutor deixou de manter distância do veículo da frente', 'Nublado'];['Colisão traseira'];0.009285765404709082;0.7478386167146974;3.939880852617388
-['Condutor deixou de manter distância do veículo da frente'];['Colisão traseira', 'Reta'];0.05227939597795749;0.6483248280452629;4.063262086690495
-['Condutor deixou de manter distância do veículo da frente', 'Sem Vítimas'];['Colisão traseira'];0.011987404279682244;0.771889400921659;4.066588971280362
-['Condutor deixou de manter distância do veículo da frente', 'Simples'];['Colisão traseira'];0.02071852859085379;0.7514600908500974;3.9589600714293187
+['Reta', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.05227939597795749;0.7585669781931466;3.99640169150451
+['Sem Vítimas', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.011987404279682244;0.771889400921659;4.066588971280362
+['Simples', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.02071852859085379;0.7514600908500974;3.9589600714293187
 ['Sol', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.0056895441208044085;0.7553444180522566;3.979424094050026
-['Tarde', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.02579975667358477;0.7456049638055843;3.9281131715545023
+['Condutor deixou de manter distância do veículo da frente', 'Tarde'];['Colisão traseira'];0.02579975667358477;0.7456049638055843;3.9281131715545023
 ['Condutor deixou de manter distância do veículo da frente', 'domingo'];['Colisão traseira'];0.007067201030558935;0.7699805068226121;4.05653223558577
-['Condutor deixou de manter distância do veículo da frente', 'quarta-feira'];['Colisão traseira'];0.008784799255707436;0.7553846153846153;3.9796358679495634
-['quinta-feira', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.009804623201889358;0.7685834502103787;4.049172042526014
+['quarta-feira', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.008784799255707436;0.7553846153846153;3.9796358679495634
+['Condutor deixou de manter distância do veículo da frente', 'quinta-feira'];['Colisão traseira'];0.009804623201889358;0.7685834502103787;4.049172042526014
 ['segunda-feira', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.008641666070278393;0.7252252252252251;3.8207454320188785
-['sexta-feira', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.01082444714807128;0.7469135802469136;3.935007430215901
+['Condutor deixou de manter distância do veículo da frente', 'sexta-feira'];['Colisão traseira'];0.01082444714807128;0.7469135802469136;3.935007430215901
 ['sábado', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.008015458384026336;0.7859649122807018;4.140743790856158
-['terça-feira', 'Condutor deixou de manter distância do veículo da frente'];['Colisão traseira'];0.007818650254061404;0.747008547008547;3.9355077490245742
-['Deficiência do Sistema de Iluminação/Sinalização', 'Céu Claro'];['Colisão traseira'];0.0016997065769698704;0.5;2.63417852766519
-['Estacionar ou parar em local proibido'];['Colisão traseira', 'Céu Claro'];0.0011987404279682244;0.5193798449612403;4.302531242711375
-['Deficiência do Sistema de Iluminação/Sinalização', 'Colisão traseira'];['Noite'];0.0018070564660416517;0.753731343283582;2.3672483838394003
-['Deficiência do Sistema de Iluminação/Sinalização', 'Simples'];['Colisão traseira'];0.0017712731696843914;0.5469613259668509;2.8815875606503187
-['Estacionar ou parar em local proibido'];['Colisão traseira', 'Reta'];0.0013597652615758963;0.5891472868217054;3.6923772320070367
-['Tombamento', 'Com Vítimas Fatais'];['Curva'];0.001824948114220282;0.5425531914893617;3.1054155636173477
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Com Vítimas Fatais'];['Noite'];0.0020396478923638446;0.6627906976744187;2.081630572848877
-['Pedestre andava na pista', 'Com Vítimas Fatais'];['Noite'];0.003256279968510699;0.6816479400749064;2.140855622986439
-['Condutor desrespeitou a iluminação vermelha do semáforo'];['Interseção de vias', 'Com Vítimas Feridas'];0.00246904744865097;0.5149253731343284;13.373703046107751
-['Curva acentuada'];['Com Vítimas Feridas', 'Curva'];0.0034530880984756317;0.670138888888889;5.118956235858655
-['Deficiência do Sistema de Iluminação/Sinalização'];['Noite', 'Com Vítimas Feridas'];0.0030415801903671364;0.5862068965517241;2.727628693145934
-['Condutor Dormindo', 'Curva'];['Saída de leito carroçável'];0.0038467043584054965;0.5058823529411764;3.0573936495013228
-['Condutor Dormindo', 'Tarde'];['Saída de leito carroçável'];0.0033815215057611107;0.5053475935828877;3.0541617323242605
-['Condutor Dormindo', 'domingo'];['Saída de leito carroçável'];0.003721462821155085;0.5402597402597403;3.265159753741069
-['Condutor desrespeitou a iluminação vermelha do semáforo', 'Céu Claro'];['Interseção de vias'];0.0018070564660416517;0.5738636363636364;11.950218466332476
-['Condutor desrespeitou a iluminação vermelha do semáforo', 'Dupla'];['Interseção de vias'];0.0013776569097545266;0.6015625;12.52702356557377
-['Tarde', 'Condutor desrespeitou a iluminação vermelha do semáforo'];['Interseção de vias'];0.0010913905388964431;0.6354166666666666;13.232007575757576
-['Curva acentuada'];['Curva', 'Céu Claro'];0.0028447720604022043;0.5520833333333334;6.284529871011541
+['Condutor deixou de manter distância do veículo da frente', 'terça-feira'];['Colisão traseira'];0.007818650254061404;0.747008547008547;3.9355077490245742
+['Estacionar ou parar em local proibido', 'Céu Claro'];['Colisão traseira'];0.0011987404279682244;0.7790697674418605;4.104417705896924
+['Reta', 'Estacionar ou parar em local proibido'];['Colisão traseira'];0.0013597652615758963;0.7676767676767676;4.044395315203119
+['Com Vítimas Feridas', 'Curva acentuada'];['Curva'];0.0034530880984756317;0.8853211009174312;5.06731868637758
+['Curva acentuada', 'Céu Claro'];['Curva'];0.0028447720604022043;0.8736263736263736;5.000381492547391
 ['Curva acentuada', 'Dupla'];['Curva'];0.001323981965218636;0.8314606741573034;4.759037378392217
 ['Curva acentuada', 'Manhã'];['Curva'];0.0017712731696843914;0.9000000000000001;5.151336405529954
 ['Curva acentuada', 'Noite'];['Curva'];0.001323981965218636;0.8809523809523809;5.042313412820325
 ['Curva acentuada', 'Saída de leito carroçável'];['Curva'];0.001323981965218636;0.9487179487179488;5.430183675344966
-['Curva acentuada'];['Simples', 'Curva'];0.0030952551349030274;0.6006944444444444;5.9454602247014146
+['Curva acentuada', 'Simples'];['Curva'];0.0030952551349030274;0.9153439153439153;5.239160482990488
 ['Curva acentuada', 'Tarde'];['Curva'];0.0014671151506476777;0.8723404255319148;4.993021102286716
-['Curva acentuada', 'Tombamento'];['Curva'];0.0017175982251485006;0.8347826086956522;4.7780511587524215
+['Tombamento', 'Curva acentuada'];['Curva'];0.0017175982251485006;0.8347826086956522;4.7780511587524215
 ['Incêndio', 'Curva'];['Demais falhas mecânicas ou elétricas'];0.001914406355113433;0.884297520661157;21.677700449470784
-['Garoa/Chuvisco', 'Pista Escorregadia'];['Curva'];0.0014313318542904171;0.5673758865248226;3.2474933998612787
-['Velocidade Incompatível', 'Garoa/Chuvisco'];['Curva'];0.0024869390968296;0.5285171102661598;3.0250771456217307
 ['Incêndio', 'Curva'];['Sem Vítimas'];0.0020575395405424747;0.9504132231404957;5.286147464202267
-['Manhã', 'Velocidade Incompatível'];['Curva'];0.01601302511987404;0.5105533371363377;2.922257769505805
-['Velocidade Incompatível', 'Saída de leito carroçável'];['Curva'];0.01674658269519788;0.5078676071622356;2.9068854377380102
-['Velocidade Incompatível', 'Simples'];['Curva'];0.026103914692621483;0.5328707085463842;3.0499958670839225
-['Velocidade Incompatível', 'Tombamento'];['Curva'];0.011468546482501969;0.6628748707342296;3.794101615471332
-['Deficiência do Sistema de Iluminação/Sinalização'];['Noite', 'Céu Claro'];0.0026121806340800116;0.503448275862069;2.5786960258873495
-['Incêndio'];['Demais falhas mecânicas ou elétricas', 'Céu Claro'];0.010466614184498676;0.577492596248766;21.165387665269527
-['Derramamento de carga'];['Céu Claro', 'Sem Vítimas'];0.0012166320761468547;0.5230769230769231;4.818825677371912
-['Incêndio'];['Céu Claro', 'Sem Vítimas'];0.011665354612466901;0.6436327739387957;5.9294417341333725
-['Deficiência do Sistema de Iluminação/Sinalização', 'Dupla'];['Noite'];0.0014313318542904171;0.8333333333333333;2.6172548138158387
-['Deficiência do Sistema de Iluminação/Sinalização'];['Noite', 'Reta'];0.0033099549130465897;0.6379310344827587;2.8079415167199833
-['Deficiência do Sistema de Iluminação/Sinalização', 'Simples'];['Noite'];0.002415372504115079;0.7458563535911602;2.342515358221911
+['Incêndio', 'Céu Claro'];['Demais falhas mecânicas ou elétricas'];0.010466614184498676;0.8653846153846154;21.214068825910932
+['Derramamento de carga', 'Céu Claro'];['Sem Vítimas'];0.0012166320761468547;0.7311827956989247;4.066799563857528
+['Incêndio', 'Céu Claro'];['Sem Vítimas'];0.011665354612466901;0.9644970414201184;5.364480907458778
 ['Incêndio', 'Dupla'];['Demais falhas mecânicas ou elétricas'];0.006727259715164961;0.8764568764568765;21.485494622336727
-['Manhã', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.004043512488370428;0.8432835820895521;20.672283320240897
-['Noite', 'Demais falhas mecânicas ou elétricas'];['Incêndio'];0.0056895441208044085;0.5162337662337663;28.48305790951398
+['Incêndio', 'Manhã'];['Demais falhas mecânicas ou elétricas'];0.004043512488370428;0.8432835820895521;20.672283320240897
+['Incêndio', 'Noite'];['Demais falhas mecânicas ou elétricas'];0.0056895441208044085;0.8641304347826086;21.183323798627
 ['Incêndio', 'Nublado'];['Demais falhas mecânicas ou elétricas'];0.00246904744865097;0.851851851851852;20.88232618583496
-['Incêndio'];['Demais falhas mecânicas ou elétricas', 'Reta'];0.013150361411293209;0.7255676209279368;22.87277240208925
+['Incêndio'];['Reta', 'Demais falhas mecânicas ou elétricas'];0.013150361411293209;0.7255676209279368;22.87277240208925
 ['Incêndio'];['Demais falhas mecânicas ou elétricas', 'Sem Vítimas'];0.015028984470049382;0.8292201382033564;42.01883224339256
-['Incêndio', 'Simples'];['Demais falhas mecânicas ou elétricas'];0.007926000143133185;0.8486590038314176;20.804056597432275
-['Tarde', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.005904243898947971;0.8753315649867374;21.457908697473123
+['Simples', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.007926000143133185;0.8486590038314176;20.804056597432275
+['Incêndio', 'Tarde'];['Demais falhas mecânicas ou elétricas'];0.005904243898947971;0.8753315649867374;21.457908697473123
 ['Incêndio', 'domingo'];['Demais falhas mecânicas ou elétricas'];0.0022543476705074073;0.875;21.449780701754385
-['Incêndio', 'quarta-feira'];['Demais falhas mecânicas ou elétricas'];0.0021291061332569957;0.815068493150685;19.98061763999039
-['quinta-feira', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.0018965147069348028;0.8760330578512396;21.475105118167317
+['quarta-feira', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.0021291061332569957;0.815068493150685;19.98061763999039
+['Incêndio', 'quinta-feira'];['Demais falhas mecânicas ou elétricas'];0.0018965147069348028;0.8760330578512396;21.475105118167317
 ['segunda-feira', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.0018965147069348028;0.8346456692913385;20.460533222820832
-['sexta-feira', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.002898447004938095;0.8852459016393442;21.700949094046592
+['Incêndio', 'sexta-feira'];['Demais falhas mecânicas ou elétricas'];0.002898447004938095;0.8852459016393442;21.700949094046592
 ['sábado', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.002308022615043298;0.8896551724137932;21.80903811252269
-['terça-feira', 'Incêndio'];['Demais falhas mecânicas ou elétricas'];0.0022543476705074073;0.8571428571428572;21.012030075187972
-['Noite', 'Demais falhas mecânicas ou elétricas'];['Sem Vítimas'];0.006816717956058112;0.6185064935064934;3.440100003489395
-['Demais falhas mecânicas ou elétricas', 'Reta'];['Sem Vítimas'];0.016048808416231304;0.505922165820643;2.8139120004027642
-['Demais falhas mecânicas ou elétricas', 'Simples'];['Sem Vítimas'];0.009697273312817577;0.529296875;2.943920881430988
-['Demais falhas mecânicas ou elétricas', 'quarta-feira'];['Sem Vítimas'];0.0027016388749731626;0.5335689045936396;2.9676816813163205
-['sexta-feira', 'Demais falhas mecânicas ou elétricas'];['Sem Vítimas'];0.0033994131539397407;0.5177111716621253;2.8794818197372383
-['Derramamento de carga', 'Simples'];['Sem Vítimas'];0.0010377155943605526;0.7532467532467533;4.189518114485773
-['Ultrapassagem Indevida', 'Desvio Temporário'];['Simples'];0.0010198239461819223;0.9827586206896551;2.0062950116000513
+['Incêndio', 'terça-feira'];['Demais falhas mecânicas ou elétricas'];0.0022543476705074073;0.8571428571428572;21.012030075187972
+['Simples', 'Derramamento de carga'];['Sem Vítimas'];0.0010377155943605526;0.7532467532467533;4.189518114485773
 ['Incêndio', 'Dupla'];['Sem Vítimas'];0.007317684105059758;0.9533799533799534;5.30264825896232
-['Ingestão de álcool e/ou substâncias psicoativas pelo pedestre', 'Dupla'];['Noite'];0.0018965147069348028;0.6385542168674698;2.0055109175745462
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Garoa/Chuvisco'];['Noite'];0.001824948114220282;0.703448275862069;2.2093240635245426
-['Saída de leito carroçável', 'Ignorado'];['Noite'];0.0015207900951835682;0.6439393939393939;2.022424174312239
-['Ignorado', 'Sem Vítimas'];['Noite'];0.0014492235024690474;0.6377952755905512;2.0031273063220434
-['domingo', 'Ignorado'];['Noite'];0.0019501896514706935;0.7730496453900709;2.4279214868589483
-['Manhã', 'Incêndio'];['Sem Vítimas'];0.004616045230086596;0.9626865671641791;5.354411146575808
+['Incêndio', 'Manhã'];['Sem Vítimas'];0.004616045230086596;0.9626865671641791;5.354411146575808
 ['Múltipla', 'Incêndio'];['Sem Vítimas'];0.0010556072425391826;0.9516129032258064;5.292820020608694
-['Noite', 'Incêndio'];['Sem Vítimas'];0.006369426751592357;0.9673913043478262;5.380578642910608
+['Incêndio', 'Noite'];['Sem Vítimas'];0.006369426751592357;0.9673913043478262;5.380578642910608
 ['Incêndio', 'Nublado'];['Sem Vítimas'];0.0027910971158663137;0.962962962962963;5.355948445211059
 ['Incêndio'];['Reta', 'Sem Vítimas'];0.014617476561940885;0.8065153010858834;6.359728161440773
-['Incêndio', 'Simples'];['Sem Vítimas'];0.009035282330208259;0.9674329501915708;5.380810274863895
+['Simples', 'Incêndio'];['Sem Vítimas'];0.009035282330208259;0.9674329501915708;5.380810274863895
 ['Sol', 'Incêndio'];['Sem Vítimas'];0.0010556072425391826;0.9218749999999998;5.127419394964671
-['Tarde', 'Incêndio'];['Sem Vítimas'];0.0064231016961282476;0.9522546419098143;5.296389336811956
+['Incêndio', 'Tarde'];['Sem Vítimas'];0.0064231016961282476;0.9522546419098143;5.296389336811956
 ['Incêndio', 'domingo'];['Sem Vítimas'];0.00246904744865097;0.9583333333333334;5.330198693070621
-['Incêndio', 'quarta-feira'];['Sem Vítimas'];0.00246904744865097;0.9452054794520548;5.257182272617598
-['quinta-feira', 'Incêndio'];['Sem Vítimas'];0.002093322836899735;0.9669421487603305;5.378080463579698
+['quarta-feira', 'Incêndio'];['Sem Vítimas'];0.00246904744865097;0.9452054794520548;5.257182272617598
+['Incêndio', 'quinta-feira'];['Sem Vítimas'];0.002093322836899735;0.9669421487603305;5.378080463579698
 ['segunda-feira', 'Incêndio'];['Sem Vítimas'];0.0021291061332569957;0.937007874015748;5.211587630061517
-['sexta-feira', 'Incêndio'];['Sem Vítimas'];0.0031847133757961785;0.9726775956284153;5.409980711997551
+['Incêndio', 'sexta-feira'];['Sem Vítimas'];0.0031847133757961785;0.9726775956284153;5.409980711997551
 ['sábado', 'Incêndio'];['Sem Vítimas'];0.0025406140413654905;0.9793103448275863;5.446871707941432
-['terça-feira', 'Incêndio'];['Sem Vítimas'];0.0025227223931868605;0.9591836734693878;5.33492823938213
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Interseção de vias'];['Sem Vítimas'];0.0017533815215057611;0.5632183908045977;3.132590536257396
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Múltipla'];['Sem Vítimas'];0.0027016388749731626;0.5084175084175084;2.827790962331713
-['segunda-feira', 'Ingestão de álcool e/ou substâncias psicoativas pelo condutor'];['Noite'];0.003578329635726043;0.6451612903225806;2.0262617913412946
-['Ingestão de álcool e/ou substâncias psicoativas pelo condutor', 'Saída de leito carroçável'];['Sem Vítimas'];0.0091784155156373;0.5039292730844794;2.802827637699047
-['Ingestão de álcool e/ou substâncias psicoativas pelo pedestre', 'Nublado'];['Noite'];0.0010556072425391826;0.7108433734939759;2.2325498893754383
-['Ingestão de álcool e/ou substâncias psicoativas pelo pedestre', 'Sem Vítimas'];['Noite'];0.0012703070206827453;0.6574074074074074;2.064723242010273
-['Pedestre andava na pista', 'domingo'];['Noite'];0.0010198239461819223;0.6477272727272727;2.034320787102311
-['Pedestre andava na pista', 'sábado'];['Noite'];0.0013060903170400058;0.6636363636363637;2.0842865608206136
-['Vento'];['Noite', 'Reta'];0.0010377155943605526;0.5;2.200819026618365
+['Incêndio', 'terça-feira'];['Sem Vítimas'];0.0025227223931868605;0.9591836734693878;5.33492823938213

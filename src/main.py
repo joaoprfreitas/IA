@@ -69,7 +69,7 @@ def main():
 
     records = generateRecords(df)
 
-    association_rules = apriori(records, min_support=0.001, min_confidence=0.50, min_lift=2, min_length=2, max_length=3)
+    association_rules = apriori(records, min_support=0.001, min_confidence=0.70, min_lift=3, max_length=3)
 
     writeAssociationResults(list(association_rules))
 
