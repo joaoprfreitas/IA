@@ -66,13 +66,10 @@ def writeAssociationResults(results):
 def main():
     data = openDataSet()
     df = preProcessing(data)
-
     records = generateRecords(df)
-
     association_rules = apriori(records, min_support=0.001, min_confidence=0.70, min_lift=3, max_length=3)
 
     writeAssociationResults(list(association_rules))
-
 
 if __name__ == '__main__':
     main()
